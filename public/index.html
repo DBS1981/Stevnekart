@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="logo.png" type="image/png">
+  <title>Stevekart - 12.05.25</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+  <style>
+    html, body { margin: 0; height: 100%; overflow: hidden; font-family: sans-serif; }
+    #map { position: absolute; top: 0; left: 0; height: 100%; width: calc(100% - 320px); z-index: 1; }
+    #sidepanel { position: absolute; top: 25px; right: 0; height: 98%; width: 480px; background: #f9f9f9; overflow-y: auto; resize: horizontal; border-left: 1px solid #ccc; padding: 10px; z-index: 2; }
+    #toggleButton { position: absolute; top: 10px; right: 200px; z-index: 1000; }
+.brukerpos-icon div {
+  animation: pulser 1.5s infinite;
+}
+@keyframes pulser {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.3); opacity: 0.6; }
+  100% { transform: scale(1); opacity: 1; }
+}
+ 
+ </style>
+</head>
+<body>
+<div id="topButtons" style="position: fixed; top: 0px; right: 5px; z-index: 1000; display: flex; gap: 10px;">
+<button id="åpneSøkPopup">🔍 Søk etter sted</button>  
+<button id="oppdaterStevnerBtn">🔄 Oppdater stevner</button>
+  <button id="åpneGrafKnapp">📈 Vis stevnegraf</button>
+  <button onclick="document.getElementById('mineImportPopup').style.display = 'block'">✂️ Mine stevner</button>
+  <button id="oppdaterSkytterlagBtn">🔄 Oppdater skytterlag</button>
+</div>
+
+<!-- Oppdater-popup -->
+<div id="oppdaterPopup" style="display:none; position:fixed; top:100px; right:340px; background:white; border:1px solid #ccc; padding:10px; z-index:1001;">
+  <h4>Henter stevner fra DFS</h4>
+  <p>Skriv inn dato fra og til:</p>
+  <label>Fra dato: <input type="date" id="datoFra"></label><br><br>
+  <label>Til dato: <input type="date" id="datoTil"></label><br><br>
+  <button id="startOppdatering">Hent fra DFS</button>
+  <button onclick="document.getElementById('oppdaterPopup').style.display='none'">Avbryt</button>
+</div>
+
+<!-- Kart -->
+<div id="map"></div>
+
+<!-- Sidepanel -->
+<div id="sidepanel">
+  <div id="filter-container" style="padding: 20px;">
+    <label for="eventTypeFilter">Filtrer:</label>
+    <select id="eventTypeFilter" style="width: 100%; max-width: 200px;"></select>
+    <button id="brukFilterBtn" style="margin-top:5px;">Bruk filter</button>
+    <button id="nullstillFilterBtn" style="margin-top:5px; margin-left:10px;">Nullstill</button>
+  </div>
+  <ul id="stevneliste"></ul>
+</div>
+
+<!-- Mine stevner import-popup -->
+<div id="mineImportPopup" class="popup" style="display: none; position:fixed; top:100px; right:340px; background:white; border:1px solid #ccc; padding:10px; z-index:1001; width:400px;">
+  <h3>Lim inn stevner fra DFS</h3>
+  <p>Slik gjør du:</p>
+  <ol style="padding-left: 20px;">
+    <li>Gå til <strong>mittdfs.no</strong>, logg inn og åpne fanen <strong>Mine stevner</strong>.</li>
+    <li>Trykk <strong>F12</strong> → "Network" → Last siden på nytt (F5).</li>
+    <li>Finn "calendar?dateFrom=...&tab=mine" → Gå til "Response".</li>
+    <li>Kopier hele JSON-responsen og lim den inn under:</li>
+  </ol>
+  <textarea id="dfsJsonInput" rows="10" style="width: 100%; margin-top:10px;"></textarea>
+  <div style="margin-top: 10px;">
+    <button onclick="lagreMineStevner()">💾 Lagre</button>
+    <button onclick="document.getElementById('mineImportPopup').style.display='none'" style="margin-left:10px;">Lukk</button>
+  </div>
+</div>
+
+<div id="søkPopup" style="display:none; position:fixed; top:15px; left:50px; background:white; padding:10px; border:1px solid #ccc; z-index:1001;">
+  <h3>🔍 Finn stevner i nærheten</h3>
+  <label>Sted: <input id="søkSted" type="text" style="width: 250px;"></label><br><br>
+  <label>Avstand: <input id="søkRadius" type="number" value="30" style="width:60px;"> km</label><br><br>
+  <button id="startSøk">🔎 Søk</button>
+  <button onclick="document.getElementById('søkPopup').style.display='none'">Lukk</button>
+</div>
+
+<!-- Reiserute-popup -->
+<div id="ruteplanlegger" style="position: fixed; bottom: 10px; left: 10px; background: white; padding: 10px; border: 1px solid #888; max-height: 300px; overflow-y: auto; z-index: 1001; display: none;">
+  <h4>🧭 Reiserute</h4>
+  <ul id="ruteliste" style="margin-bottom: 10px;"></ul>
+  <button onclick="åpneGoogleMapsRute()">🗺️ Google Maps</button>
+  <button onclick="nullstillReiserute()">🗑 Nullstill rute</button>
+  <button id="visReiseplanKnapp">Vis reiseplan</button>
+</div>
+<div id="grafPopup" style="display:none; position:fixed; top:80px; right:50%; background:white; padding:10px; border:1px solid #ccc; z-index:1000; width: 800px;">
+  <h3>Stevnegraf</h3>
+  <div id="loadingSpinner" style="display:none;">Laster...</div>
+  <div id="yearSelector" style="margin-bottom:10px;"></div>
+  <div id="typeSelector" style="margin-bottom:10px;"></div>
+
+  <div style="display:flex; gap:10px; flex-wrap: wrap; margin-bottom:10px;">
+    <button id="compareYearsBtn">📈 Sammenlign år</button>
+    <button id="selectAllYearsBtn">Velg alle år</button>
+    <button id="clearAllYearsBtn">Fjern alle år</button>
+    <button id="grafCloseBtn">Lukk</button>
+  </div>
+
+  <div id="container" style="min-height:300px;"></div>
+</div>
+
+<!-- Reiseplan-popup -->
+<div id="reiseplanPopup" style="display:none; position:fixed; bottom:20px; left:20px; background:white; border:1px solid #ccc; padding:10px; z-index:10001; max-width:1200px; box-shadow:0 4px 12px rgba(0,0,0,0.2); overflow-x:auto;"></div>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://unpkg.com/leaflet-geometryutil"></script>
+<script src="https://unpkg.com/@mapbox/polyline"></script>
+<script>
+  // Ekstra metode til Leaflet: dekode ORS encoded polyline
+  L.Polyline.fromEncoded = function(encoded) {
+    const coords = polyline.decode(encoded).map(c => L.latLng(c[0], c[1]));
+    return L.polyline(coords);
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+<script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+<script src="body/kart.js"></script>
+<script src="body/søk.js"></script>
+<script src="body/oppdater.js"></script>
+<script src="body/graf.js"></script>
+<script src="body/reiseplanlegger.js"></script>
+  console.log("📦 Script etter reiseplanlegger.js kjøres!");
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const datoFraEl = document.getElementById("datoFra");
+    const datoTilEl = document.getElementById("datoTil");
+    if (datoFraEl && datoTilEl) {
+      const idag = new Date();
+      const enMndFram = new Date();
+      enMndFram.setMonth(enMndFram.getMonth() + 1);
+      const tilISO = d => d.toISOString().split("T")[0];
+      datoFraEl.value = tilISO(idag);
+      datoTilEl.value = tilISO(enMndFram);
+    }
+  });
+</script>
+</body>
+</html>

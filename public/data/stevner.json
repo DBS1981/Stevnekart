@@ -1,0 +1,4286 @@
+[
+  {
+    "navn": "Jaktskyting",
+    "fra": "5.4.2025",
+    "til": "1.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 60.9423858155441,
+      "lng": 7.08849516025539
+    },
+    "skytterlag": "Undredal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/fjordane-krets/sogn-indre/undredal/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250496
+  },
+  {
+    "navn": "Inviduell korrespondanse runde1",
+    "fra": "7.5.2025",
+    "til": "28.5.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 61.2377871782963,
+      "lng": 5.85270418659713
+    },
+    "skytterlag": "Vadheim",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/fjordane-krets/sogn-ytre/vadheim/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 1,
+    "link": null,
+    "beskrivelse": "Cup",
+    "eventId": 251138
+  },
+  {
+    "navn": "Kleppstevnet",
+    "fra": "19.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "20.4.2025 - 21:00",
+    "påmeldingTil": "16.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.7964285856059,
+      "lng": 5.67121259077597
+    },
+    "skytterlag": "Klepp",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/rogaland/klepp/",
+    "arrangementstype": "bane",
+    "paameldte": 200,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244271&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244271
+  },
+  {
+    "navn": "Malvikstevnet",
+    "fra": "20.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "13.4.2025 - 21:00",
+    "påmeldingTil": "19.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.3913003823425,
+      "lng": 10.6812917455116
+    },
+    "skytterlag": "Malvik",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/malvik/",
+    "arrangementstype": "bane",
+    "paameldte": 88,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243855&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243855
+  },
+  {
+    "navn": "Gjerpen stevnet 2025",
+    "fra": "20.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "28.4.2025 - 21:00",
+    "påmeldingTil": "16.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.2997154002765,
+      "lng": 9.56330823454042
+    },
+    "skytterlag": "Gjerpen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/telemark/gjerpen/",
+    "arrangementstype": "bane",
+    "paameldte": 203,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250962&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250962
+  },
+  {
+    "navn": "Meland Ope Banestemne 2025",
+    "fra": "20.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "11.5.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.5567354068284,
+      "lng": 5.18678221234389
+    },
+    "skytterlag": "Meland",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/hordakretsen/hordaland/meland/",
+    "arrangementstype": "bane",
+    "paameldte": 129,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25277&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25277
+  },
+  {
+    "navn": "Bergmannsstevne",
+    "fra": "21.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "23.4.2025 - 21:00",
+    "påmeldingTil": "18.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.6383091853835,
+      "lng": 9.50688613559833
+    },
+    "skytterlag": "Kongsberg",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/numedal/kongsberg/",
+    "arrangementstype": "bane",
+    "paameldte": 204,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243489&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243489
+  },
+  {
+    "navn": "Mostadmarkstevnet",
+    "fra": "21.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "13.4.2025 - 21:00",
+    "påmeldingTil": "20.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.3301519592894,
+      "lng": 10.8850601892789
+    },
+    "skytterlag": "Mostadmark",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/mostadmark/",
+    "arrangementstype": "bane",
+    "paameldte": 165,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243856&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243856
+  },
+  {
+    "navn": "Vårstevnet - Gjesdal",
+    "fra": "21.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "24.4.2025 - 21:00",
+    "påmeldingTil": "19.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.7461267111347,
+      "lng": 5.92269665316434
+    },
+    "skytterlag": "Gjesdal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/rogaland/gjesdal/",
+    "arrangementstype": "bane",
+    "paameldte": 191,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244273&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244273
+  },
+  {
+    "navn": "Sollidalsstemnet",
+    "fra": "21.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "25.4.2025 - 21:00",
+    "påmeldingTil": "20.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.1860039501548,
+      "lng": 6.01850889107751
+    },
+    "skytterlag": "Hovdebygda og Ørsta",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/sore-sunnmore/hovdebygda-og-orsta/",
+    "arrangementstype": "bane",
+    "paameldte": 79,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244515&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244515
+  },
+  {
+    "navn": "Olav Medås Minnestemna",
+    "fra": "21.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "20.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.5387498571686,
+      "lng": 6.7051730952195
+    },
+    "skytterlag": "Granvin",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/hordakretsen/hardanger-og-voss/granvin/",
+    "arrangementstype": "bane",
+    "paameldte": 146,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251009&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251009
+  },
+  {
+    "navn": "Styrvollstevnet",
+    "fra": "21.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "30.4.2025 - 21:00",
+    "påmeldingTil": "20.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.3147313116827,
+      "lng": 9.84926751040985
+    },
+    "skytterlag": "Styrvoll",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/vestfold/styrvoll/",
+    "arrangementstype": "bane",
+    "paameldte": 206,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251028&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251028
+  },
+  {
+    "navn": "Østbø Cup 1",
+    "fra": "21.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "10.5.2025 - 21:00",
+    "påmeldingTil": "20.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 66.8622592708543,
+      "lng": 13.7546585049935
+    },
+    "skytterlag": "Ørnes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/salten/ornes/",
+    "arrangementstype": "bane",
+    "paameldte": 31,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251071&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251071
+  },
+  {
+    "navn": "Østlandscup Rygge Spydeberg",
+    "fra": "21.5.2025",
+    "til": "22.5.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 59.3676073806173,
+      "lng": 10.7226596115406
+    },
+    "skytterlag": "Rygge",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/ostfold/rygge/",
+    "arrangementstype": "bane",
+    "paameldte": 10,
+    "link": null,
+    "beskrivelse": "Cup",
+    "eventId": 251320
+  },
+  {
+    "navn": "Seim",
+    "fra": "21.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "11.5.2025 - 21:00",
+    "påmeldingTil": "20.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.6493833702608,
+      "lng": 5.26344377575007
+    },
+    "skytterlag": "Seim",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/hordakretsen/hordaland/seim/",
+    "arrangementstype": "bane",
+    "paameldte": 150,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25278&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25278
+  },
+  {
+    "navn": "Sparebankcupen - Urskogstevnet",
+    "fra": "22.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "28.4.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.9512394759977,
+      "lng": 11.4053596545577
+    },
+    "skytterlag": "Urskog",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/akershus/urskog/",
+    "arrangementstype": "bane",
+    "paameldte": 309,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243521&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243521
+  },
+  {
+    "navn": "Kraftrikestevnet Bane 2025",
+    "fra": "22.5.2025",
+    "til": "22.5.2025",
+    "påmeldingFra": "23.4.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.6198466878344,
+      "lng": 11.2915250339951
+    },
+    "skytterlag": "Tangen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/hedmark/tangen/",
+    "arrangementstype": "bane",
+    "paameldte": 68,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243612&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243612
+  },
+  {
+    "navn": "Sparebankcupen - Fetstevnet",
+    "fra": "22.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "28.4.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.9327095866371,
+      "lng": 11.2425023261922
+    },
+    "skytterlag": "Fet",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/akershus/fet/",
+    "arrangementstype": "bane",
+    "paameldte": 300,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243679&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243679
+  },
+  {
+    "navn": "Bølareinstevnet Bane",
+    "fra": "22.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "27.4.2025 - 21:00",
+    "påmeldingTil": "20.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 64.102492960259,
+      "lng": 11.7719264242941
+    },
+    "skytterlag": "Forr",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/inntrondelag/forr/",
+    "arrangementstype": "bane",
+    "paameldte": 83,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243773&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243773
+  },
+  {
+    "navn": "Hommelvikstevnet",
+    "fra": "22.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "13.4.2025 - 21:00",
+    "påmeldingTil": "24.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.3812429046478,
+      "lng": 10.7661996097457
+    },
+    "skytterlag": "Hommelvik",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/hommelvik/",
+    "arrangementstype": "bane",
+    "paameldte": 133,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243857&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243857
+  },
+  {
+    "navn": "Vartdalsstemne bane 2025",
+    "fra": "22.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "7.5.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.2909528357537,
+      "lng": 6.09666389845578
+    },
+    "skytterlag": "Vartdal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/sore-sunnmore/vartdal/",
+    "arrangementstype": "bane",
+    "paameldte": 70,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244514&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244514
+  },
+  {
+    "navn": "Kveldsstemne Fyresdal",
+    "fra": "22.5.2025",
+    "til": "22.5.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "20.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.2401825389774,
+      "lng": 8.06372302084592
+    },
+    "skytterlag": "Fyresdal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/telemark/fyresdal/",
+    "arrangementstype": "bane",
+    "paameldte": 65,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250482&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250482
+  },
+  {
+    "navn": "Esebotn Open",
+    "fra": "22.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "4.5.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.2303882732804,
+      "lng": 6.47880804598997
+    },
+    "skytterlag": "Fjordane",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/fjordane-krets/sogn-ytre/fjordane/",
+    "arrangementstype": "bane",
+    "paameldte": 62,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250855&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250855
+  },
+  {
+    "navn": "Jon Istad Minnestemne",
+    "fra": "22.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "20.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.6422757273549,
+      "lng": 6.52688611579484
+    },
+    "skytterlag": "Voss",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/hordakretsen/hardanger-og-voss/voss/",
+    "arrangementstype": "bane",
+    "paameldte": 168,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250988&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250988
+  },
+  {
+    "navn": "Siljanstevnet",
+    "fra": "22.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "2.5.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.2767790785341,
+      "lng": 9.74593947088176
+    },
+    "skytterlag": "Siljan",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/telemark/siljan/",
+    "arrangementstype": "bane",
+    "paameldte": 180,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251038&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251038
+  },
+  {
+    "navn": "Åpent stevne",
+    "fra": "22.5.2025",
+    "til": "22.5.2025",
+    "påmeldingFra": "2.5.2025 - 21:00",
+    "påmeldingTil": "20.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 67.2008539325817,
+      "lng": 14.7113937578286
+    },
+    "skytterlag": "Saltstraumen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/salten/saltstraumen/",
+    "arrangementstype": "bane",
+    "paameldte": 34,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251044&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251044
+  },
+  {
+    "navn": "Sparebank 1 karusell runde 3",
+    "fra": "22.5.2025",
+    "til": "22.5.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.9933052958943,
+      "lng": 9.9509102556569
+    },
+    "skytterlag": "Nordre Modum",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/ringerike/nordre-modum/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 31,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251189&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251189
+  },
+  {
+    "navn": "30 skuddspokalen",
+    "fra": "22.5.2025",
+    "til": "22.5.2025",
+    "påmeldingFra": "22.4.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.5566147745337,
+      "lng": 10.2186029538551
+    },
+    "skytterlag": "Sande",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/vestfold/sande/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 7,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25336&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25336
+  },
+  {
+    "navn": "Kvernestreffen 2025",
+    "fra": "22.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "25.4.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.0063726079818,
+      "lng": 7.69786795938096
+    },
+    "skytterlag": "Kvernes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/nordmor/kvernes/",
+    "arrangementstype": "bane",
+    "paameldte": 98,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25883&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25883
+  },
+  {
+    "navn": "Hårråmyrstevnet",
+    "fra": "23.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "27.4.2025 - 21:00",
+    "påmeldingTil": "22.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.9731039553769,
+      "lng": 11.8885498583052
+    },
+    "skytterlag": "Øvre Ogndal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/inntrondelag/ovre-ogndal/",
+    "arrangementstype": "bane",
+    "paameldte": 93,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243772&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243772
+  },
+  {
+    "navn": "Vest-Agder karusell",
+    "fra": "23.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "5.5.2025 - 21:00",
+    "påmeldingTil": "20.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.5004479505632,
+      "lng": 7.12640993616158
+    },
+    "skytterlag": "Øvre Eiken",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/vest-agder/ovre-eiken/",
+    "arrangementstype": "bane",
+    "paameldte": 69,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244174&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244174
+  },
+  {
+    "navn": "Vest-Agder karusell",
+    "fra": "23.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "5.5.2025 - 21:00",
+    "påmeldingTil": "20.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.1763375606262,
+      "lng": 7.67150871073084
+    },
+    "skytterlag": "Heddeland og Breland",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/vest-agder/heddeland-og-breland/",
+    "arrangementstype": "bane",
+    "paameldte": 77,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244294&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244294
+  },
+  {
+    "navn": "Hjartåstemnet",
+    "fra": "23.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "30.4.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.1036836623148,
+      "lng": 6.21782981154786
+    },
+    "skytterlag": "Hjartåbygda",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/sore-sunnmore/hjartabygda/",
+    "arrangementstype": "bane",
+    "paameldte": 83,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244516&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244516
+  },
+  {
+    "navn": "Eide og Naas Vårstevne",
+    "fra": "23.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "25.4.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.8741098520514,
+      "lng": 7.41169894353852
+    },
+    "skytterlag": "Eide og Naas",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/nordmor/eide-og-naas/",
+    "arrangementstype": "bane",
+    "paameldte": 91,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250604&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250604
+  },
+  {
+    "navn": "Malmefjordenstevnet 2025",
+    "fra": "23.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "29.4.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.7986300445338,
+      "lng": 7.2831613805256
+    },
+    "skytterlag": "Malmefjorden",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/romsdal/malmefjorden/",
+    "arrangementstype": "bane",
+    "paameldte": 74,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251010&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251010
+  },
+  {
+    "navn": "2. æresprisstevne",
+    "fra": "23.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "8.5.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.7456450407191,
+      "lng": 9.0637990892944
+    },
+    "skytterlag": "Søndeled",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/aust-agder/sondeled/",
+    "arrangementstype": "bane",
+    "paameldte": 82,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251108&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251108
+  },
+  {
+    "navn": "Ø-Cup 100m Sigdal B - Jondalen B",
+    "fra": "23.5.2025",
+    "til": "23.5.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 60.1139736780872,
+      "lng": 9.53430956223676
+    },
+    "skytterlag": "Sigdal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/ringerike/sigdal/",
+    "arrangementstype": "bane",
+    "paameldte": 1,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 251318
+  },
+  {
+    "navn": "Grong Sparebank stevnet",
+    "fra": "23.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "14.5.2025 - 21:00",
+    "påmeldingTil": "22.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 64.5068154059997,
+      "lng": 12.0277279738643
+    },
+    "skytterlag": "Nordre Skage",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/namdal/nordre-skage/",
+    "arrangementstype": "bane",
+    "paameldte": 58,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25671&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25671
+  },
+  {
+    "navn": "Vårstevnet",
+    "fra": "23.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "13.5.2025 - 21:00",
+    "påmeldingTil": "22.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 64.4714487831407,
+      "lng": 12.21869287603
+    },
+    "skytterlag": "Grong",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/namdal/grong/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 37,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25672&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25672
+  },
+  {
+    "navn": "Sommerstarten",
+    "fra": "24.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "25.4.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 69.2125319061575,
+      "lng": 19.4891436045771
+    },
+    "skytterlag": "Balsfjord",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/troms/balsfjord/",
+    "arrangementstype": "bane",
+    "paameldte": 101,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243996&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243996
+  },
+  {
+    "navn": "Sikanfelten",
+    "fra": "24.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "22.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 68.6244446504286,
+      "lng": 14.480986870782
+    },
+    "skytterlag": "Bø (Vesterålen)",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vesteralen/bo-vesteralen/",
+    "arrangementstype": "felt",
+    "paameldte": 80,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244116&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244116
+  },
+  {
+    "navn": "Sikantreffen",
+    "fra": "24.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "22.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 68.6244536187083,
+      "lng": 14.4809866634037
+    },
+    "skytterlag": "Bø (Vesterålen)",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vesteralen/bo-vesteralen/",
+    "arrangementstype": "bane",
+    "paameldte": 76,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244117&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244117
+  },
+  {
+    "navn": "Vadheimstemna",
+    "fra": "24.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "4.5.2025 - 21:00",
+    "påmeldingTil": "23.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.2377871782963,
+      "lng": 5.85270418659713
+    },
+    "skytterlag": "Vadheim",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/fjordane-krets/sogn-ytre/vadheim/",
+    "arrangementstype": "bane",
+    "paameldte": 56,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244418&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244418
+  },
+  {
+    "navn": "ØSTFOLDSERIEN 2025 - Rakkestad",
+    "fra": "24.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "24.4.2025 - 21:00",
+    "påmeldingTil": "22.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.448465016282,
+      "lng": 11.426258580662
+    },
+    "skytterlag": "Rakkestad",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/ostfold/rakkestad/",
+    "arrangementstype": "bane",
+    "paameldte": 203,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250127&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250127
+  },
+  {
+    "navn": "DNS/Follomedaljen",
+    "fra": "24.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "24.4.2025 - 21:00",
+    "påmeldingTil": "23.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.7265513715399,
+      "lng": 10.6525961174923
+    },
+    "skytterlag": "Frogn og Drøbak",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/follo/frogn-og-drobak/",
+    "arrangementstype": "bane",
+    "paameldte": 39,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250165&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250165
+  },
+  {
+    "navn": "Banestevne",
+    "fra": "24.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "21.3.2025 - 21:00",
+    "påmeldingTil": "20.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.9948604011716,
+      "lng": 11.7556508211045
+    },
+    "skytterlag": "Nordskogbygda",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/osterdal/nordskogbygda/",
+    "arrangementstype": "bane",
+    "paameldte": 85,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250365&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250365
+  },
+  {
+    "navn": "Blytjernstevne - ØSTFOLDSERIEN 2025",
+    "fra": "24.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "24.4.2025 - 21:00",
+    "påmeldingTil": "22.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.3170548683873,
+      "lng": 11.4305979236353
+    },
+    "skytterlag": "Degernes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/ostfold/degernes/",
+    "arrangementstype": "bane",
+    "paameldte": 189,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250436&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250436
+  },
+  {
+    "navn": "Kristiansund",
+    "fra": "24.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "30.4.2025 - 21:00",
+    "påmeldingTil": "22.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.1123782749338,
+      "lng": 7.80249701176438
+    },
+    "skytterlag": "Kristiansund",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/nordmor/kristiansund/",
+    "arrangementstype": "bane",
+    "paameldte": 76,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250603&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250603
+  },
+  {
+    "navn": "Ungdomsstevne",
+    "fra": "24.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "24.4.2025 - 21:00",
+    "påmeldingTil": "23.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.7265513715399,
+      "lng": 10.6525961174923
+    },
+    "skytterlag": "Frogn og Drøbak",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/follo/frogn-og-drobak/",
+    "arrangementstype": "bane",
+    "paameldte": 38,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250842&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250842
+  },
+  {
+    "navn": "Distriktsmesterskap HV-02/ HV-mesterskap Region Øst",
+    "fra": "24.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "10.5.2025 - 21:00",
+    "påmeldingTil": "21.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 0,
+      "lng": 0
+    },
+    "skytterlag": "Hv-02 Oslo og Akershus",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/oslo/hv-02-oslo-og-akershus/",
+    "arrangementstype": "bane",
+    "paameldte": 24,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251162&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251162
+  },
+  {
+    "navn": "HV-02 DM / RM Skogsløp",
+    "fra": "24.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "10.5.2025 - 21:00",
+    "påmeldingTil": "24.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 0,
+      "lng": 0
+    },
+    "skytterlag": "Hv-02 Oslo og Akershus",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/oslo/hv-02-oslo-og-akershus/",
+    "arrangementstype": "skogsløp",
+    "paameldte": 10,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251183&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251183
+  },
+  {
+    "navn": "Vårmønstringa I",
+    "fra": "24.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "13.5.2025 - 21:00",
+    "påmeldingTil": "23.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 0,
+      "lng": 0
+    },
+    "skytterlag": "Karasjok",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vest-finnmark/karasjok/",
+    "arrangementstype": "felt",
+    "paameldte": 31,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251198&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251198
+  },
+  {
+    "navn": "Vårmønstringa II",
+    "fra": "24.5.2025",
+    "til": "24.5.2025",
+    "påmeldingFra": "13.5.2025 - 21:00",
+    "påmeldingTil": "23.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 0,
+      "lng": 0
+    },
+    "skytterlag": "Karasjok",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vest-finnmark/karasjok/",
+    "arrangementstype": "felt",
+    "paameldte": 31,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251199&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251199
+  },
+  {
+    "navn": "Draugenstevnet",
+    "fra": "25.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "22.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 68.6244536187083,
+      "lng": 14.4809866634037
+    },
+    "skytterlag": "Bø (Vesterålen)",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vesteralen/bo-vesteralen/",
+    "arrangementstype": "bane",
+    "paameldte": 75,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244118&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244118
+  },
+  {
+    "navn": "Vårmønstring 2025 / Østbø Cup 2",
+    "fra": "25.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "23.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 67.2956660672087,
+      "lng": 14.5159263033175
+    },
+    "skytterlag": "Bodø Østre",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/salten/bodo-ostre/",
+    "arrangementstype": "bane",
+    "paameldte": 54,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251188&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251188
+  },
+  {
+    "navn": "Baneskyting I",
+    "fra": "25.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "13.5.2025 - 21:00",
+    "påmeldingTil": "23.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 69.4891739464309,
+      "lng": 25.5086747153511
+    },
+    "skytterlag": "Karasjok",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vest-finnmark/karasjok/",
+    "arrangementstype": "bane",
+    "paameldte": 26,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251200&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251200
+  },
+  {
+    "navn": "Baneskyting II",
+    "fra": "25.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "13.5.2025 - 21:00",
+    "påmeldingTil": "23.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 69.4891739464309,
+      "lng": 25.5086747153511
+    },
+    "skytterlag": "Karasjok",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vest-finnmark/karasjok/",
+    "arrangementstype": "bane",
+    "paameldte": 26,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251201&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251201
+  },
+  {
+    "navn": "Lagskyting vårmønstring Senior",
+    "fra": "25.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "20.5.2025 - 21:00",
+    "påmeldingTil": "24.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 67.2956660672087,
+      "lng": 14.5159263033175
+    },
+    "skytterlag": "Bodø Østre",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/salten/bodo-ostre/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 1,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251314&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251314
+  },
+  {
+    "navn": "Lagskyting vårmønstring rek/jun",
+    "fra": "25.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "20.5.2025 - 21:00",
+    "påmeldingTil": "24.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 67.2956660672087,
+      "lng": 14.5159263033175
+    },
+    "skytterlag": "Bodø Østre",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/salten/bodo-ostre/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 0,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251315&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251315
+  },
+  {
+    "navn": "Lagskyting vårmønstring Veteran",
+    "fra": "25.5.2025",
+    "til": "25.5.2025",
+    "påmeldingFra": "20.5.2025 - 21:00",
+    "påmeldingTil": "25.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 67.2956660672087,
+      "lng": 14.5159263033175
+    },
+    "skytterlag": "Bodø Østre",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/salten/bodo-ostre/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 1,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251316&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251316
+  },
+  {
+    "navn": "NC Laudal 1. 1.runde Stang/felthurtig",
+    "fra": "25.5.2025",
+    "til": "1.6.2025",
+    "påmeldingFra": "29.4.2025 - 21:00",
+    "påmeldingTil": "25.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.2334100074031,
+      "lng": 7.469379634776
+    },
+    "skytterlag": "Laudal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/vest-agder/laudal/",
+    "arrangementstype": "felt",
+    "paameldte": 82,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25828&arrType=STEVNE",
+    "beskrivelse": "Norgescup Stang og felthurtig",
+    "eventId": 25828
+  },
+  {
+    "navn": "NC Laudal 2. 1. runde Stang/felthurtig",
+    "fra": "25.5.2025",
+    "til": "1.6.2025",
+    "påmeldingFra": "29.4.2025 - 21:00",
+    "påmeldingTil": "25.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.2334100074031,
+      "lng": 7.469379634776
+    },
+    "skytterlag": "Laudal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/vest-agder/laudal/",
+    "arrangementstype": "felt",
+    "paameldte": 82,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25829&arrType=STEVNE",
+    "beskrivelse": "Norgescup Stang og felthurtig",
+    "eventId": 25829
+  },
+  {
+    "navn": "Samlagsmesterskap Skogsløp",
+    "fra": "26.5.2025",
+    "til": "26.5.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 59.5483387701286,
+      "lng": 10.754315955089
+    },
+    "skytterlag": "Såner",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/follo/saner/",
+    "arrangementstype": "skogsløp",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Samlagsst.",
+    "eventId": 251015
+  },
+  {
+    "navn": "NC Kristiansand 1. runde Bane",
+    "fra": "26.5.2025",
+    "til": "1.6.2025",
+    "påmeldingFra": "29.4.2025 - 21:00",
+    "påmeldingTil": "25.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.238301696514,
+      "lng": 8.06586705404828
+    },
+    "skytterlag": "Kristiansand og Omegn",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/agder/kristiansand-og-omegn/",
+    "arrangementstype": "bane",
+    "paameldte": 512,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25811&arrType=STEVNE",
+    "beskrivelse": "Norgescup",
+    "eventId": 25811
+  },
+  {
+    "navn": "NC Kristiansand 1. runde Stang/Felthurtig",
+    "fra": "26.5.2025",
+    "til": "1.6.2025",
+    "påmeldingFra": "29.4.2025 - 21:00",
+    "påmeldingTil": "25.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.238301696514,
+      "lng": 8.06586705404828
+    },
+    "skytterlag": "Kristiansand og Omegn",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/agder/kristiansand-og-omegn/",
+    "arrangementstype": "felt",
+    "paameldte": 93,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25812&arrType=STEVNE",
+    "beskrivelse": "Norgescup Stang og felthurtig",
+    "eventId": 25812
+  },
+  {
+    "navn": "NC Søgne 1. runde Bane",
+    "fra": "26.5.2025",
+    "til": "1.6.2025",
+    "påmeldingFra": "29.4.2025 - 21:00",
+    "påmeldingTil": "25.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.1106625121378,
+      "lng": 7.71934813471599
+    },
+    "skytterlag": "Søgne",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/agder/sogne/",
+    "arrangementstype": "bane",
+    "paameldte": 504,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25813&arrType=STEVNE",
+    "beskrivelse": "Norgescup",
+    "eventId": 25813
+  },
+  {
+    "navn": "NC Lyngdal 1.runde Bane",
+    "fra": "26.5.2025",
+    "til": "1.6.2025",
+    "påmeldingFra": "29.4.2025 - 21:00",
+    "påmeldingTil": "25.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.1637384788981,
+      "lng": 7.09600617370556
+    },
+    "skytterlag": "Lyngdal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/vest-agder/lyngdal/",
+    "arrangementstype": "bane",
+    "paameldte": 490,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25831&arrType=STEVNE",
+    "beskrivelse": "Norgescup",
+    "eventId": 25831
+  },
+  {
+    "navn": "Ola Five stevnet",
+    "fra": "27.5.2025",
+    "til": "28.5.2025",
+    "påmeldingFra": "5.5.2025 - 21:00",
+    "påmeldingTil": "26.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 64.1554411407022,
+      "lng": 11.7551308950469
+    },
+    "skytterlag": "Kvam",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/inntrondelag/kvam/",
+    "arrangementstype": "bane",
+    "paameldte": 60,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243774&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243774
+  },
+  {
+    "navn": "Banestevnet 2025",
+    "fra": "27.5.2025",
+    "til": "29.5.2025",
+    "påmeldingFra": "27.4.2025 - 21:00",
+    "påmeldingTil": "25.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.6914808742577,
+      "lng": 10.9372908125467
+    },
+    "skytterlag": "Kråkstad og Ski",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/follo/krakstad-og-ski/",
+    "arrangementstype": "bane",
+    "paameldte": 230,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244718&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244718
+  },
+  {
+    "navn": "SOLØR INTERCUP 2025 4. RUNDE",
+    "fra": "27.5.2025",
+    "til": "28.5.2025",
+    "påmeldingFra": "14.4.2025 - 21:00",
+    "påmeldingTil": "27.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.6765225746052,
+      "lng": 12.1680263263783
+    },
+    "skytterlag": "Åsnes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/solor/asnes/",
+    "arrangementstype": "bane",
+    "paameldte": 43,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250857&arrType=STEVNE",
+    "beskrivelse": "Cup",
+    "eventId": 250857
+  },
+  {
+    "navn": "2:runde ungdomscup (Felt) Inntrøndelag.",
+    "fra": "27.5.2025",
+    "til": "27.5.2025",
+    "påmeldingFra": "24.4.2025 - 21:00",
+    "påmeldingTil": "26.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.9434706671532,
+      "lng": 11.6368923924358
+    },
+    "skytterlag": "Inntrøndelag",
+    "skytterlagUrl": "",
+    "arrangementstype": "felt",
+    "paameldte": 29,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250867&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250867
+  },
+  {
+    "navn": "68°Nord Ofoten Cup R2/ TP2",
+    "fra": "27.5.2025",
+    "til": "27.5.2025",
+    "påmeldingFra": "19.5.2025 - 21:00",
+    "påmeldingTil": "25.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 68.7890656111945,
+      "lng": 16.5066966592384
+    },
+    "skytterlag": "Trondenes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/ofoten/trondenes/",
+    "arrangementstype": "bane",
+    "paameldte": 1,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250891&arrType=STEVNE",
+    "beskrivelse": "Cup",
+    "eventId": 250891
+  },
+  {
+    "navn": "XL-BYGG POKAL",
+    "fra": "27.5.2025",
+    "til": "27.5.2025",
+    "påmeldingFra": "3.5.2025 - 21:00",
+    "påmeldingTil": "26.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 64.0081672841586,
+      "lng": 10.041902787908
+    },
+    "skytterlag": "Herfjord",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/fosen/herfjord/",
+    "arrangementstype": "bane",
+    "paameldte": 5,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251061&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251061
+  },
+  {
+    "navn": "Den norske skyttermedalje",
+    "fra": "27.5.2025",
+    "til": "27.5.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "25.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.0254795637249,
+      "lng": 10.6163743161646
+    },
+    "skytterlag": "Sørkedalen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/drammen/sorkedalen/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 13,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251115&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251115
+  },
+  {
+    "navn": "Treningsstevne 100 m Drammen",
+    "fra": "27.5.2025",
+    "til": "27.5.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "25.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.0254795637249,
+      "lng": 10.6163743161646
+    },
+    "skytterlag": "Sørkedalen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/drammen/sorkedalen/",
+    "arrangementstype": "bane",
+    "paameldte": 14,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251119&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251119
+  },
+  {
+    "navn": "68N Ofoten cup 2",
+    "fra": "27.5.2025",
+    "til": "27.5.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 68.4934981361002,
+      "lng": 16.8626123153733
+    },
+    "skytterlag": "Evenes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/ofoten/evenes/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Cup",
+    "eventId": 251251
+  },
+  {
+    "navn": "Mandalsstevnet - Vest-Agder karusell",
+    "fra": "28.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "28.4.2025 - 21:00",
+    "påmeldingTil": "26.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.095581454746,
+      "lng": 7.62716607111684
+    },
+    "skytterlag": "Mandal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/vest-agder/mandal/",
+    "arrangementstype": "bane",
+    "paameldte": 85,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244295&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244295
+  },
+  {
+    "navn": "HSS-Bane - Westcon Cup",
+    "fra": "28.5.2025",
+    "til": "29.5.2025",
+    "påmeldingFra": "14.5.2025 - 21:00",
+    "påmeldingTil": "27.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.4785336413915,
+      "lng": 5.33071402018102
+    },
+    "skytterlag": "Haugesund og Sveio",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/hordakretsen/sunnhordland/haugesund-og-sveio/",
+    "arrangementstype": "bane",
+    "paameldte": 92,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244401&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244401
+  },
+  {
+    "navn": "Ungdomsstevnet 2025.",
+    "fra": "28.5.2025",
+    "til": "28.5.2025",
+    "påmeldingFra": "28.4.2025 - 21:00",
+    "påmeldingTil": "26.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 69.1593914986573,
+      "lng": 18.5230242943068
+    },
+    "skytterlag": "Bjørnen og Vestre Målselv",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/troms/bjornen-og-vestre-malselv/",
+    "arrangementstype": "bane",
+    "paameldte": 34,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250219&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250219
+  },
+  {
+    "navn": "Gransheradstevnet 2025",
+    "fra": "28.5.2025",
+    "til": "29.5.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "26.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.6972339955388,
+      "lng": 9.00981039788232
+    },
+    "skytterlag": "Gransherad og Heddal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/telemark/gransherad-og-heddal/",
+    "arrangementstype": "bane",
+    "paameldte": 161,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250861&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250861
+  },
+  {
+    "navn": "Fikse Bane - Westcon Cup",
+    "fra": "28.5.2025",
+    "til": "29.5.2025",
+    "påmeldingFra": "14.5.2025 - 21:00",
+    "påmeldingTil": "27.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.6247938997737,
+      "lng": 5.89366445016122
+    },
+    "skytterlag": "Fikse",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/hordakretsen/sunnhordland/fikse/",
+    "arrangementstype": "bane",
+    "paameldte": 92,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250957&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250957
+  },
+  {
+    "navn": "Sjøslaget Kolvereid",
+    "fra": "28.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "13.5.2025 - 21:00",
+    "påmeldingTil": "27.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 64.8493813295493,
+      "lng": 11.5551893699276
+    },
+    "skytterlag": "Kolvereid",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/namdal/kolvereid/",
+    "arrangementstype": "bane",
+    "paameldte": 19,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25674&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25674
+  },
+  {
+    "navn": "Saulandsstevnet",
+    "fra": "28.5.2025",
+    "til": "29.5.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "27.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.6141397404882,
+      "lng": 9.01046285426842
+    },
+    "skytterlag": "Sauland",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/telemark/sauland/",
+    "arrangementstype": "bane",
+    "paameldte": 158,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25926&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25926
+  },
+  {
+    "navn": "Velfjordstevnet",
+    "fra": "28.5.2025",
+    "til": "29.5.2025",
+    "påmeldingFra": "7.5.2025 - 21:00",
+    "påmeldingTil": "26.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 65.3568019200466,
+      "lng": 12.6548779306679
+    },
+    "skytterlag": "Øvre Velfjord",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vefsn/ovre-velfjord/",
+    "arrangementstype": "bane",
+    "paameldte": 51,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25947&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25947
+  },
+  {
+    "navn": "Organisasjonsmedaljen",
+    "fra": "29.5.2025",
+    "til": "29.5.2025",
+    "påmeldingFra": "9.5.2025 - 21:00",
+    "påmeldingTil": "27.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 68.9464359836241,
+      "lng": 15.1294289243338
+    },
+    "skytterlag": "Tretinddalen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vesteralen/tretinddalen/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 11,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244119&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244119
+  },
+  {
+    "navn": "Øksnesstevnet",
+    "fra": "29.5.2025",
+    "til": "29.5.2025",
+    "påmeldingFra": "9.5.2025 - 21:00",
+    "påmeldingTil": "27.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 68.9464359836241,
+      "lng": 15.1294289243338
+    },
+    "skytterlag": "Tretinddalen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vesteralen/tretinddalen/",
+    "arrangementstype": "bane",
+    "paameldte": 24,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244122&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244122
+  },
+  {
+    "navn": "Soknedalsstevnet 2025 Trippelstevne",
+    "fra": "29.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "8.5.2025 - 21:00",
+    "påmeldingTil": "28.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.9356411504791,
+      "lng": 10.1960168499376
+    },
+    "skytterlag": "Soknedal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/gauldal/soknedal/",
+    "arrangementstype": "bane",
+    "paameldte": 86,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251041&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251041
+  },
+  {
+    "navn": "Budalsstevnet 2025",
+    "fra": "29.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "8.5.2025 - 21:00",
+    "påmeldingTil": "28.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.888014308502,
+      "lng": 10.4955587897839
+    },
+    "skytterlag": "Budal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/gauldal/budal/",
+    "arrangementstype": "bane",
+    "paameldte": 78,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251123&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251123
+  },
+  {
+    "navn": "Ø-cup 100m Sigdal A - Sarpsborg",
+    "fra": "29.5.2025",
+    "til": "29.5.2025",
+    "påmeldingFra": "15.5.2025 - 21:00",
+    "påmeldingTil": "28.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.1139736780872,
+      "lng": 9.53430956223676
+    },
+    "skytterlag": "Sigdal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/ringerike/sigdal/",
+    "arrangementstype": "bane",
+    "paameldte": 9,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251245&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251245
+  },
+  {
+    "navn": "Østlandscup Eidskog-Nord-Odal",
+    "fra": "29.5.2025",
+    "til": "29.5.2025",
+    "påmeldingFra": "17.5.2025 - 21:00",
+    "påmeldingTil": "28.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.0211132062486,
+      "lng": 12.3028700126706
+    },
+    "skytterlag": "Eidskog",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/solor/eidskog/",
+    "arrangementstype": "bane",
+    "paameldte": 10,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251274&arrType=STEVNE",
+    "beskrivelse": "Cup",
+    "eventId": 251274
+  },
+  {
+    "navn": "Singsåsstevnet 2025 Trippelstevne",
+    "fra": "29.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "8.5.2025 - 21:00",
+    "påmeldingTil": "28.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.9634500036173,
+      "lng": 10.837180274644
+    },
+    "skytterlag": "Singsås",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/gauldal/singsas/",
+    "arrangementstype": "bane",
+    "paameldte": 63,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25400&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25400
+  },
+  {
+    "navn": "Sjøslaget Rørvik",
+    "fra": "29.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "20.5.2025 - 21:00",
+    "påmeldingTil": "29.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 64.8658679097176,
+      "lng": 11.215064354193
+    },
+    "skytterlag": "Vikna",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/namdal/vikna/",
+    "arrangementstype": "bane",
+    "paameldte": 9,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25673&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25673
+  },
+  {
+    "navn": "Kyststevnet",
+    "fra": "29.5.2025",
+    "til": "29.5.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "27.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 65.50866792372,
+      "lng": 12.2712146058888
+    },
+    "skytterlag": "Brønnøysund",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vefsn/bronnoysund/",
+    "arrangementstype": "bane",
+    "paameldte": 52,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25948&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25948
+  },
+  {
+    "navn": "Hjørungavågstemne 2025",
+    "fra": "30.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "28.4.2025 - 21:00",
+    "påmeldingTil": "29.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.3273035207432,
+      "lng": 6.01532998342619
+    },
+    "skytterlag": "Hjørungavåg",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/sore-sunnmore/hjorungavag/",
+    "arrangementstype": "bane",
+    "paameldte": 27,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244517&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244517
+  },
+  {
+    "navn": "Aspøy og Straumsnes",
+    "fra": "30.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "14.5.2025 - 21:00",
+    "påmeldingTil": "27.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.0354127231662,
+      "lng": 8.04215783764434
+    },
+    "skytterlag": "Aspøy og Straumsnes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/nordmor/aspoy-og-straumsnes/",
+    "arrangementstype": "bane",
+    "paameldte": 48,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250605&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250605
+  },
+  {
+    "navn": "Reinsfjellstevnet",
+    "fra": "30.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "10.5.2025 - 21:00",
+    "påmeldingTil": "27.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.9311072160627,
+      "lng": 7.86602127637249
+    },
+    "skytterlag": "Reinsfjell",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/nordmor/reinsfjell/",
+    "arrangementstype": "bane",
+    "paameldte": 49,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250606&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250606
+  },
+  {
+    "navn": "SM Felt / Snøhvitstevnet Felt 2025",
+    "fra": "30.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "18.5.2025 - 21:00",
+    "påmeldingTil": "29.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 70.6728384234565,
+      "lng": 23.702042965943
+    },
+    "skytterlag": "Hammerfest",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vest-finnmark/hammerfest/",
+    "arrangementstype": "felt",
+    "paameldte": 17,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251277&arrType=STEVNE",
+    "beskrivelse": "Samlagsst.",
+    "eventId": 251277
+  },
+  {
+    "navn": "Grensetreffet felt",
+    "fra": "31.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "4.5.2025 - 21:00",
+    "påmeldingTil": "30.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.3127982891751,
+      "lng": 11.8561220860432
+    },
+    "skytterlag": "Stordalen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/stordalen/",
+    "arrangementstype": "felt",
+    "paameldte": 64,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243859&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243859
+  },
+  {
+    "navn": "Grensetreffet bane",
+    "fra": "31.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "4.5.2025 - 21:00",
+    "påmeldingTil": "30.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.312867379365,
+      "lng": 11.8580320652675
+    },
+    "skytterlag": "Stordalen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/stordalen/",
+    "arrangementstype": "bane",
+    "paameldte": 72,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243860&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243860
+  },
+  {
+    "navn": "Løkemyrastemne Bane",
+    "fra": "31.5.2025",
+    "til": "1.6.2025",
+    "påmeldingFra": "7.5.2025 - 21:00",
+    "påmeldingTil": "29.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.2303543500175,
+      "lng": 5.73113612472785
+    },
+    "skytterlag": "Moltustranda og Larsnes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/sore-sunnmore/moltustranda-og-larsnes/",
+    "arrangementstype": "bane",
+    "paameldte": 29,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244518&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244518
+  },
+  {
+    "navn": "Åpent stevne",
+    "fra": "31.5.2025",
+    "til": "1.6.2025",
+    "påmeldingFra": "9.5.2025 - 21:00",
+    "påmeldingTil": "30.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.5395009843843,
+      "lng": 11.0876628858919
+    },
+    "skytterlag": "Dalsbygda",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/nord-osterdal/dalsbygda/",
+    "arrangementstype": "bane",
+    "paameldte": 32,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25135&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25135
+  },
+  {
+    "navn": "Vingelsstevnet bane",
+    "fra": "31.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "14.5.2025 - 21:00",
+    "påmeldingTil": "30.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.4191115402413,
+      "lng": 10.8964680340734
+    },
+    "skytterlag": "Vingelen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/nord-osterdal/vingelen/",
+    "arrangementstype": "bane",
+    "paameldte": 31,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25136&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25136
+  },
+  {
+    "navn": "Løvstakkstevnet bane",
+    "fra": "31.5.2025",
+    "til": "31.5.2025",
+    "påmeldingFra": "4.5.2025 - 21:00",
+    "påmeldingTil": "29.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.3684136064909,
+      "lng": 5.3081184457092
+    },
+    "skytterlag": "Bergen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/hordakretsen/hordaland/bergen/",
+    "arrangementstype": "bane",
+    "paameldte": 115,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25720&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25720
+  },
+  {
+    "navn": "Vesterålstreffen",
+    "fra": "1.6.2025",
+    "til": "1.6.2025",
+    "påmeldingFra": "9.5.2025 - 21:00",
+    "påmeldingTil": "31.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 68.5070397798099,
+      "lng": 14.7980839923215
+    },
+    "skytterlag": "Melbo",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vesteralen/melbo/",
+    "arrangementstype": "bane",
+    "paameldte": 24,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244120&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244120
+  },
+  {
+    "navn": "Sortlandstevnet",
+    "fra": "1.6.2025",
+    "til": "1.6.2025",
+    "påmeldingFra": "9.5.2025 - 21:00",
+    "påmeldingTil": "30.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 68.7288013351046,
+      "lng": 15.3408311433854
+    },
+    "skytterlag": "Sortland",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vesteralen/sortland/",
+    "arrangementstype": "bane",
+    "paameldte": 30,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244121&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244121
+  },
+  {
+    "navn": "Landsdelskrets- og samlagsstevnet skogsløpsprint",
+    "fra": "1.6.2025",
+    "til": "1.6.2025",
+    "påmeldingFra": "14.5.2025 - 21:00",
+    "påmeldingTil": "30.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.2559739548357,
+      "lng": 9.95218755289785
+    },
+    "skytterlag": "Skaun",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/skaun/",
+    "arrangementstype": "skogsløp",
+    "paameldte": 2,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251219&arrType=STEVNE",
+    "beskrivelse": "Landsdelst.",
+    "eventId": 251219
+  },
+  {
+    "navn": "Snøhvitstevnet Bane 2024",
+    "fra": "1.6.2025",
+    "til": "1.6.2025",
+    "påmeldingFra": "18.5.2025 - 21:00",
+    "påmeldingTil": "29.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 70.6728384234565,
+      "lng": 23.702042965943
+    },
+    "skytterlag": "Hammerfest",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vest-finnmark/hammerfest/",
+    "arrangementstype": "bane",
+    "paameldte": 16,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251285&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251285
+  },
+  {
+    "navn": "Jegerfelt del 2.",
+    "fra": "2.6.2025",
+    "til": "2.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 0,
+      "lng": 0
+    },
+    "skytterlag": "Honningsvåg",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vest-finnmark/honningsvag/",
+    "arrangementstype": "felt",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250386
+  },
+  {
+    "navn": "Ungdomsstevne 100m",
+    "fra": "2.6.2025",
+    "til": "5.6.2025",
+    "påmeldingFra": "9.5.2025 - 21:00",
+    "påmeldingTil": "30.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.2517466465034,
+      "lng": 9.25822589837164
+    },
+    "skytterlag": "Holla",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/telemark/holla/",
+    "arrangementstype": "bane",
+    "paameldte": 101,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250524&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250524
+  },
+  {
+    "navn": "3. INTERNSTEVNE (Felt)",
+    "fra": "2.6.2025",
+    "til": "3.6.2025",
+    "påmeldingFra": "18.5.2025 - 21:00",
+    "påmeldingTil": "1.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.296816958324,
+      "lng": 10.1564508185695
+    },
+    "skytterlag": "Andebu",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/vestfold/andebu/",
+    "arrangementstype": "felt",
+    "paameldte": 34,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250749&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250749
+  },
+  {
+    "navn": "Veteranstevne Holmestrand",
+    "fra": "2.6.2025",
+    "til": "2.6.2025",
+    "påmeldingFra": "5.5.2025 - 21:00",
+    "påmeldingTil": "30.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.5622042595384,
+      "lng": 10.1646853258216
+    },
+    "skytterlag": "Holmestrand og Omegn",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/vestfold/holmestrand-og-omegn/",
+    "arrangementstype": "bane",
+    "paameldte": 12,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251097&arrType=STEVNE",
+    "beskrivelse": "Samlagsst.",
+    "eventId": 251097
+  },
+  {
+    "navn": "Østfoldcup Råde II - Sarpsborg - Degernes",
+    "fra": "2.6.2025",
+    "til": "2.6.2025",
+    "påmeldingFra": "18.5.2025 - 21:00",
+    "påmeldingTil": "2.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.3560304456259,
+      "lng": 10.8806397946029
+    },
+    "skytterlag": "Råde",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/ostfold/rade/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251290&arrType=STEVNE",
+    "beskrivelse": "Cup",
+    "eventId": 251290
+  },
+  {
+    "navn": "Samlagsstevnet skogsløp m/skyting",
+    "fra": "3.6.2025",
+    "til": "3.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 63.6046857616813,
+      "lng": 10.0328260854916
+    },
+    "skytterlag": "Rissa",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/fosen/rissa/",
+    "arrangementstype": "skogsløp",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250634
+  },
+  {
+    "navn": "68°Nord Ofoten Cup R3/ TP3",
+    "fra": "3.6.2025",
+    "til": "3.6.2025",
+    "påmeldingFra": "19.5.2025 - 21:00",
+    "påmeldingTil": "1.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 68.7890656111945,
+      "lng": 16.5066966592384
+    },
+    "skytterlag": "Trondenes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/ofoten/trondenes/",
+    "arrangementstype": "bane",
+    "paameldte": 1,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250893&arrType=STEVNE",
+    "beskrivelse": "Cup",
+    "eventId": 250893
+  },
+  {
+    "navn": "Veidekkepokalen 2025",
+    "fra": "3.6.2025",
+    "til": "7.6.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "1.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.4796975510957,
+      "lng": 6.38285863750825
+    },
+    "skytterlag": "Aalesund",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/sunnmor/aalesund/",
+    "arrangementstype": "bane",
+    "paameldte": 43,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251037&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251037
+  },
+  {
+    "navn": "ROLF SAND MINNEPOKAL",
+    "fra": "3.6.2025",
+    "til": "3.6.2025",
+    "påmeldingFra": "3.5.2025 - 21:00",
+    "påmeldingTil": "2.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 64.0081672841586,
+      "lng": 10.041902787908
+    },
+    "skytterlag": "Herfjord",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/fosen/herfjord/",
+    "arrangementstype": "bane",
+    "paameldte": 4,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251062&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251062
+  },
+  {
+    "navn": "Ørskogstemnet bane 2025",
+    "fra": "3.6.2025",
+    "til": "7.6.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "1.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.4916759339647,
+      "lng": 6.81681845285637
+    },
+    "skytterlag": "Ørskog",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/sunnmor/orskog/",
+    "arrangementstype": "bane",
+    "paameldte": 39,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251190&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251190
+  },
+  {
+    "navn": "Ope banestevne",
+    "fra": "3.6.2025",
+    "til": "7.6.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "1.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.2929951882662,
+      "lng": 6.76944746466166
+    },
+    "skytterlag": "Sykkylven og Stranda",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/sunnmor/sykkylven-og-stranda/",
+    "arrangementstype": "bane",
+    "paameldte": 15,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251196&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251196
+  },
+  {
+    "navn": "68N Ofoten cup 3",
+    "fra": "3.6.2025",
+    "til": "3.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 68.4934981361002,
+      "lng": 16.8626123153733
+    },
+    "skytterlag": "Evenes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/ofoten/evenes/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Cup",
+    "eventId": 251253
+  },
+  {
+    "navn": "Grindølstevnet Vest-Agder karusell",
+    "fra": "4.6.2025",
+    "til": "7.6.2025",
+    "påmeldingFra": "19.5.2025 - 21:00",
+    "påmeldingTil": "2.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.438960679295,
+      "lng": 7.42590775453757
+    },
+    "skytterlag": "Grindølen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/vest-agder/grindolen/",
+    "arrangementstype": "bane",
+    "paameldte": 32,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244297&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244297
+  },
+  {
+    "navn": "Solør interncup 5. runde",
+    "fra": "4.6.2025",
+    "til": "5.6.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "2.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.4059607045197,
+      "lng": 11.5604590735267
+    },
+    "skytterlag": "Nord-Odal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/solor/nord-odal/",
+    "arrangementstype": "bane",
+    "paameldte": 37,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244471&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244471
+  },
+  {
+    "navn": "Egentrening",
+    "fra": "4.6.2025",
+    "til": "4.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 0,
+      "lng": 0
+    },
+    "skytterlag": "Honningsvåg",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vest-finnmark/honningsvag/",
+    "arrangementstype": "felt",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250385
+  },
+  {
+    "navn": "Rælingsstevnet pinsen 2025",
+    "fra": "4.6.2025",
+    "til": "7.6.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "1.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.8801731825963,
+      "lng": 11.0718216277505
+    },
+    "skytterlag": "Rælingen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/akershus/ralingen/",
+    "arrangementstype": "bane",
+    "paameldte": 241,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250502&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250502
+  },
+  {
+    "navn": "Dugleiksmerket",
+    "fra": "4.6.2025",
+    "til": "4.6.2025",
+    "påmeldingFra": "8.5.2025 - 21:00",
+    "påmeldingTil": "3.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.2601734200265,
+      "lng": 12.3034512420272
+    },
+    "skytterlag": "Trysil",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/osterdal/trysil/",
+    "arrangementstype": "bane",
+    "paameldte": 6,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251146&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251146
+  },
+  {
+    "navn": "Organisasjonsmedaljen 2025",
+    "fra": "4.6.2025",
+    "til": "4.6.2025",
+    "påmeldingFra": "14.5.2025 - 21:00",
+    "påmeldingTil": "2.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.6972339955388,
+      "lng": 9.00981039788232
+    },
+    "skytterlag": "Gransherad og Heddal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/telemark/gransherad-og-heddal/",
+    "arrangementstype": "bane",
+    "paameldte": 2,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251206&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251206
+  },
+  {
+    "navn": "Kretsstevne 4. krets",
+    "fra": "4.6.2025",
+    "til": "4.6.2025",
+    "påmeldingFra": "18.5.2025 - 21:00",
+    "påmeldingTil": "3.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.3560304456259,
+      "lng": 10.8806397946029
+    },
+    "skytterlag": "Råde",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/ostfold/rade/",
+    "arrangementstype": "bane",
+    "paameldte": 22,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25512&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25512
+  },
+  {
+    "navn": "Nittedalsstevnet Pinsen 2025",
+    "fra": "4.6.2025",
+    "til": "7.6.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "3.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.1518820359499,
+      "lng": 10.770912179698
+    },
+    "skytterlag": "Nittedal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/akershus/nittedal/",
+    "arrangementstype": "bane",
+    "paameldte": 303,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25833&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25833
+  },
+  {
+    "navn": "Åpent 25-skudd stevne",
+    "fra": "5.6.2025",
+    "til": "5.6.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "4.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.0681874045217,
+      "lng": 10.6368398078446
+    },
+    "skytterlag": "Lismarken",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/hedmark/lismarken/",
+    "arrangementstype": "bane",
+    "paameldte": 15,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243613&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243613
+  },
+  {
+    "navn": "Tydalsstevnet",
+    "fra": "5.6.2025",
+    "til": "9.6.2025",
+    "påmeldingFra": "11.5.2025 - 21:00",
+    "påmeldingTil": "4.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.059240017206,
+      "lng": 11.5443554486108
+    },
+    "skytterlag": "Tydal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/tydal/",
+    "arrangementstype": "bane",
+    "paameldte": 69,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243861&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243861
+  },
+  {
+    "navn": "100 m stevne (alle klasser)",
+    "fra": "5.6.2025",
+    "til": "5.6.2025",
+    "påmeldingFra": "28.5.2025 - 21:00",
+    "påmeldingTil": "4.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 66.3308167763743,
+      "lng": 14.0023291921862
+    },
+    "skytterlag": "Alteren",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/rana/alteren/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250583
+  },
+  {
+    "navn": "2. Ungdoms- Og rekrutteringsstevne Bane 2025",
+    "fra": "5.6.2025",
+    "til": "5.6.2025",
+    "påmeldingFra": "14.5.2025 - 21:00",
+    "påmeldingTil": "3.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.9486430161131,
+      "lng": 11.4695414610614
+    },
+    "skytterlag": "Mære",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/inntrondelag/mare/",
+    "arrangementstype": "bane",
+    "paameldte": 21,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251223&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251223
+  },
+  {
+    "navn": "Organisasjonsmedaljen",
+    "fra": "5.6.2025",
+    "til": "5.6.2025",
+    "påmeldingFra": "14.5.2025 - 21:00",
+    "påmeldingTil": "3.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.3409954286069,
+      "lng": 8.1933590348421
+    },
+    "skytterlag": "Birkenes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/agder/birkenes/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 11,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25454&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25454
+  },
+  {
+    "navn": "Vigdarvoldstevnet",
+    "fra": "6.6.2025",
+    "til": "7.6.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "5.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.9434706671532,
+      "lng": 11.6368923924358
+    },
+    "skytterlag": "Henning",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/inntrondelag/henning/",
+    "arrangementstype": "bane",
+    "paameldte": 59,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243775&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243775
+  },
+  {
+    "navn": "Selbustevnet",
+    "fra": "6.6.2025",
+    "til": "9.6.2025",
+    "påmeldingFra": "11.5.2025 - 21:00",
+    "påmeldingTil": "4.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.2227983327553,
+      "lng": 11.1322520612156
+    },
+    "skytterlag": "Selbu",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/selbu/",
+    "arrangementstype": "bane",
+    "paameldte": 78,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243862&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243862
+  },
+  {
+    "navn": "Vest-Agder karusell",
+    "fra": "6.6.2025",
+    "til": "7.6.2025",
+    "påmeldingFra": "19.5.2025 - 21:00",
+    "påmeldingTil": "4.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 58.1173770030821,
+      "lng": 7.39886069324532
+    },
+    "skytterlag": "Lindesnes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/vest-agder/lindesnes/",
+    "arrangementstype": "bane",
+    "paameldte": 35,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244296&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244296
+  },
+  {
+    "navn": "Øystre Slidre Stevnet",
+    "fra": "6.6.2025",
+    "til": "7.6.2025",
+    "påmeldingFra": "6.5.2025 - 21:00",
+    "påmeldingTil": "5.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.1309098081663,
+      "lng": 9.09151082562804
+    },
+    "skytterlag": "Øystre Slidre",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/valdres/oystre-slidre/",
+    "arrangementstype": "bane",
+    "paameldte": 43,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251079&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251079
+  },
+  {
+    "navn": "Fagernesstevnet",
+    "fra": "6.6.2025",
+    "til": "7.6.2025",
+    "påmeldingFra": "8.5.2025 - 21:00",
+    "påmeldingTil": "4.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.0493800503404,
+      "lng": 9.15367129593017
+    },
+    "skytterlag": "Fagernes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/valdres/fagernes/",
+    "arrangementstype": "bane",
+    "paameldte": 34,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251235&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251235
+  },
+  {
+    "navn": "Samlagsstemna Bane SISS",
+    "fra": "7.6.2025",
+    "til": "9.6.2025",
+    "påmeldingFra": "18.5.2025 - 21:00",
+    "påmeldingTil": "6.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.8789856044312,
+      "lng": 7.24591448450845
+    },
+    "skytterlag": "Aurland",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/fjordane-krets/sogn-indre/aurland/",
+    "arrangementstype": "bane",
+    "paameldte": 90,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243954&arrType=STEVNE",
+    "beskrivelse": "Samlagsst.",
+    "eventId": 243954
+  },
+  {
+    "navn": "Midthølstevnet",
+    "fra": "7.6.2025",
+    "til": "9.6.2025",
+    "påmeldingFra": "10.5.2025 - 21:00",
+    "påmeldingTil": "8.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.8751244521171,
+      "lng": 6.03011990650623
+    },
+    "skytterlag": "Kvinnherad",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/hordakretsen/sunnhordland/kvinnherad/",
+    "arrangementstype": "bane",
+    "paameldte": 73,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250955&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250955
+  },
+  {
+    "navn": "Agastemne 2025",
+    "fra": "7.6.2025",
+    "til": "9.6.2025",
+    "påmeldingFra": "10.5.2025 - 21:00",
+    "påmeldingTil": "6.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.309300100842,
+      "lng": 6.60754380266026
+    },
+    "skytterlag": "Folgefonn",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/hordakretsen/hardanger-og-voss/folgefonn/",
+    "arrangementstype": "bane",
+    "paameldte": 63,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251139&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251139
+  },
+  {
+    "navn": "Samlagsstemne felt",
+    "fra": "7.6.2025",
+    "til": "7.6.2025",
+    "påmeldingFra": "11.5.2025 - 21:00",
+    "påmeldingTil": "4.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.6274605578646,
+      "lng": 5.32237890094487
+    },
+    "skytterlag": "Florø",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/fjordane-krets/sunnfjord/floro/",
+    "arrangementstype": "felt",
+    "paameldte": 25,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25872&arrType=STEVNE",
+    "beskrivelse": "Samlagsst.",
+    "eventId": 25872
+  },
+  {
+    "navn": "Pinsestevnet",
+    "fra": "9.6.2025",
+    "til": "9.6.2025",
+    "påmeldingFra": "16.5.2025 - 21:00",
+    "påmeldingTil": "8.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.6708229054068,
+      "lng": 11.1961318524138
+    },
+    "skytterlag": "Spydeberg",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/follo/spydeberg/",
+    "arrangementstype": "bane",
+    "paameldte": 97,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244720&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244720
+  },
+  {
+    "navn": "Bjørn Solbergs minnestevne",
+    "fra": "9.6.2025",
+    "til": "9.6.2025",
+    "påmeldingFra": "9.5.2025 - 21:00",
+    "påmeldingTil": "6.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.8935028642402,
+      "lng": 10.1042740620496
+    },
+    "skytterlag": "Nordre Land",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/opland/nordre-land/",
+    "arrangementstype": "bane",
+    "paameldte": 105,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25102&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25102
+  },
+  {
+    "navn": "Banestevne",
+    "fra": "9.6.2025",
+    "til": "9.6.2025",
+    "påmeldingFra": "15.5.2025 - 21:00",
+    "påmeldingTil": "7.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.581253087205,
+      "lng": 8.16007045870104
+    },
+    "skytterlag": "Øyfjell",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/telemark/oyfjell/",
+    "arrangementstype": "bane",
+    "paameldte": 44,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251027&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251027
+  },
+  {
+    "navn": "Pinsestevnet Torpa 2025",
+    "fra": "9.6.2025",
+    "til": "9.6.2025",
+    "påmeldingFra": "9.5.2025 - 21:00",
+    "påmeldingTil": "7.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.9743004247608,
+      "lng": 10.089253579312
+    },
+    "skytterlag": "Torpa",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/opland/torpa/",
+    "arrangementstype": "bane",
+    "paameldte": 102,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251144&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251144
+  },
+  {
+    "navn": "Straumanstemnet (Innom Telemark)",
+    "fra": "9.6.2025",
+    "til": "9.6.2025",
+    "påmeldingFra": "15.5.2025 - 21:00",
+    "påmeldingTil": "7.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.3677545957809,
+      "lng": 8.5136464395617
+    },
+    "skytterlag": "Kviteseid",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/telemark/kviteseid/",
+    "arrangementstype": "bane",
+    "paameldte": 62,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251222&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251222
+  },
+  {
+    "navn": "Kjemsjøkuten",
+    "fra": "9.6.2025",
+    "til": "9.6.2025",
+    "påmeldingFra": "19.5.2025 - 21:00",
+    "påmeldingTil": "9.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.5654254485053,
+      "lng": 11.1087747038336
+    },
+    "skytterlag": "Bjørnen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/osterdal/bjornen/",
+    "arrangementstype": "skogsløp",
+    "paameldte": 4,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251299&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251299
+  },
+  {
+    "navn": "LDKS Sørlandskretsen",
+    "fra": "10.6.2025",
+    "til": "15.6.2025",
+    "påmeldingFra": "11.5.2025 - 21:00",
+    "påmeldingTil": "8.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.2715303203201,
+      "lng": 9.11290152456418
+    },
+    "skytterlag": "Lunde",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/telemark/lunde/",
+    "arrangementstype": "bane",
+    "paameldte": 310,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250702&arrType=STEVNE",
+    "beskrivelse": "Landsdelst.",
+    "eventId": 250702
+  },
+  {
+    "navn": "Viken 1 - Bane",
+    "fra": "10.6.2025",
+    "til": "15.6.2025",
+    "påmeldingFra": "11.5.2025 - 21:00",
+    "påmeldingTil": "8.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.8450264629027,
+      "lng": 10.3793044018289
+    },
+    "skytterlag": "Asker",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/drammen/asker/",
+    "arrangementstype": "bane",
+    "paameldte": 265,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250705&arrType=STEVNE",
+    "beskrivelse": "Landsdelst.",
+    "eventId": 250705
+  },
+  {
+    "navn": "68°Nord Ofoten Cup R4/ TP4",
+    "fra": "10.6.2025",
+    "til": "10.6.2025",
+    "påmeldingFra": "19.5.2025 - 21:00",
+    "påmeldingTil": "8.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 68.7890656111945,
+      "lng": 16.5066966592384
+    },
+    "skytterlag": "Trondenes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/ofoten/trondenes/",
+    "arrangementstype": "bane",
+    "paameldte": 1,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250896&arrType=STEVNE",
+    "beskrivelse": "Cup",
+    "eventId": 250896
+  },
+  {
+    "navn": "Sparebank 1 karusell Ringerike- runde 4",
+    "fra": "10.6.2025",
+    "til": "10.6.2025",
+    "påmeldingFra": "10.5.2025 - 21:00",
+    "påmeldingTil": "9.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.235265114181,
+      "lng": 10.2497225629704
+    },
+    "skytterlag": "Ringerike",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/ringerike/ringerike/",
+    "arrangementstype": "bane",
+    "paameldte": 27,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250946&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250946
+  },
+  {
+    "navn": "4. Ungdoms- og rekrutteringsstevne 2025",
+    "fra": "10.6.2025",
+    "til": "10.6.2025",
+    "påmeldingFra": "20.5.2025 - 21:00",
+    "påmeldingTil": "8.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 64.102570092247,
+      "lng": 11.7721639585611
+    },
+    "skytterlag": "Forr",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/inntrondelag/forr/",
+    "arrangementstype": "felt",
+    "paameldte": 2,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250983&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250983
+  },
+  {
+    "navn": "LP-Cup Bane 3.runde",
+    "fra": "10.6.2025",
+    "til": "11.6.2025",
+    "påmeldingFra": "10.5.2025 - 21:00",
+    "påmeldingTil": "8.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.8553012735639,
+      "lng": 9.47495249685433
+    },
+    "skytterlag": "Flesberg",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/numedal/flesberg/",
+    "arrangementstype": "bane",
+    "paameldte": 88,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251084&arrType=STEVNE",
+    "beskrivelse": "Samlagsst.",
+    "eventId": 251084
+  },
+  {
+    "navn": "68N Ofoten cup 4",
+    "fra": "10.6.2025",
+    "til": "10.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 68.4934981361002,
+      "lng": 16.8626123153733
+    },
+    "skytterlag": "Evenes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/ofoten/evenes/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Cup",
+    "eventId": 251255
+  },
+  {
+    "navn": "Karusell 2025",
+    "fra": "10.6.2025",
+    "til": "10.6.2025",
+    "påmeldingFra": "20.5.2025 - 21:00",
+    "påmeldingTil": "8.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.787019069546,
+      "lng": 10.5111873761425
+    },
+    "skytterlag": "Gjøvik og Brusveen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/opland/gjovik-og-brusveen/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 7,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251263&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251263
+  },
+  {
+    "navn": "Landsdelskretsstevnet Trønderkretsen",
+    "fra": "11.6.2025",
+    "til": "15.6.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "10.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.9731039553769,
+      "lng": 11.8885498583052
+    },
+    "skytterlag": "Øvre Ogndal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/inntrondelag/ovre-ogndal/",
+    "arrangementstype": "bane",
+    "paameldte": 276,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243776&arrType=STEVNE",
+    "beskrivelse": "Landsdelst.",
+    "eventId": 243776
+  },
+  {
+    "navn": "VIKEN II",
+    "fra": "11.6.2025",
+    "til": "14.6.2025",
+    "påmeldingFra": "8.5.2025 - 21:00",
+    "påmeldingTil": "10.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.0211132062486,
+      "lng": 12.3028700126706
+    },
+    "skytterlag": "Eidskog",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/solor/eidskog/",
+    "arrangementstype": "bane",
+    "paameldte": 310,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244473&arrType=STEVNE",
+    "beskrivelse": "Landsdelst.",
+    "eventId": 244473
+  },
+  {
+    "navn": "Landsdelskretsstemne Bane Mørekretsen",
+    "fra": "11.6.2025",
+    "til": "15.6.2025",
+    "påmeldingFra": "28.4.2025 - 21:00",
+    "påmeldingTil": "31.5.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.1860039501548,
+      "lng": 6.01850889107751
+    },
+    "skytterlag": "Hovdebygda og Ørsta",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/sore-sunnmore/hovdebygda-og-orsta/",
+    "arrangementstype": "bane",
+    "paameldte": 148,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244519&arrType=STEVNE",
+    "beskrivelse": "Landsdelst.",
+    "eventId": 244519
+  },
+  {
+    "navn": "Jegerfelt 3",
+    "fra": "11.6.2025",
+    "til": "11.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 0,
+      "lng": 0
+    },
+    "skytterlag": "Honningsvåg",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vest-finnmark/honningsvag/",
+    "arrangementstype": "felt",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250388
+  },
+  {
+    "navn": "Åpent midt uke stevnet",
+    "fra": "11.6.2025",
+    "til": "11.6.2025",
+    "påmeldingFra": "8.5.2025 - 21:00",
+    "påmeldingTil": "10.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.2601734200265,
+      "lng": 12.3034512420272
+    },
+    "skytterlag": "Trysil",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/osterdal/trysil/",
+    "arrangementstype": "bane",
+    "paameldte": 13,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251147&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251147
+  },
+  {
+    "navn": "Åpent Stevne Bane",
+    "fra": "11.6.2025",
+    "til": "11.6.2025",
+    "påmeldingFra": "14.5.2025 - 21:00",
+    "påmeldingTil": "9.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.7694378667663,
+      "lng": 10.1977279560185
+    },
+    "skytterlag": "Sørfjorden",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/fosen/sorfjorden/",
+    "arrangementstype": "bane",
+    "paameldte": 13,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251226&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251226
+  },
+  {
+    "navn": "Osstevnet bane 2025",
+    "fra": "11.6.2025",
+    "til": "14.6.2025",
+    "påmeldingFra": "18.5.2025 - 21:00",
+    "påmeldingTil": "10.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.199327430498,
+      "lng": 5.41710553955981
+    },
+    "skytterlag": "Os",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/hordakretsen/hordaland/os/",
+    "arrangementstype": "bane",
+    "paameldte": 98,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25280&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25280
+  },
+  {
+    "navn": "Melmyrstevnet",
+    "fra": "12.6.2025",
+    "til": "12.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 63.4507887438543,
+      "lng": 11.1627983287995
+    },
+    "skytterlag": "Hegra",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/hegra/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 243863
+  },
+  {
+    "navn": "Melmyrstevnet",
+    "fra": "12.6.2025",
+    "til": "12.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 63.4507887438543,
+      "lng": 11.1627983287995
+    },
+    "skytterlag": "Hegra",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/hegra/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 243864
+  },
+  {
+    "navn": "LDKS Fjordane Krets Bane",
+    "fra": "12.6.2025",
+    "til": "15.6.2025",
+    "påmeldingFra": "13.5.2025 - 21:00",
+    "påmeldingTil": "10.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.9386547087557,
+      "lng": 6.13860298032567
+    },
+    "skytterlag": "Eidsbygda",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/fjordane-krets/nordfjord/eidsbygda/",
+    "arrangementstype": "bane",
+    "paameldte": 92,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244342&arrType=STEVNE",
+    "beskrivelse": "Landsdelst.",
+    "eventId": 244342
+  },
+  {
+    "navn": "Stang og felthurtigstevne",
+    "fra": "12.6.2025",
+    "til": "12.6.2025",
+    "påmeldingFra": "11.5.2025 - 21:00",
+    "påmeldingTil": "11.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.55641880542,
+      "lng": 10.2193928467635
+    },
+    "skytterlag": "Sande",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/vestfold/sande/",
+    "arrangementstype": "felt",
+    "paameldte": 16,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244387&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244387
+  },
+  {
+    "navn": "Jaktfeltkarusellen",
+    "fra": "12.6.2025",
+    "til": "12.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 63.3301519592894,
+      "lng": 10.8850601892789
+    },
+    "skytterlag": "Mostadmark",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/mostadmark/",
+    "arrangementstype": "felt",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250338
+  },
+  {
+    "navn": "Feltskyting for jegere 2",
+    "fra": "12.6.2025",
+    "til": "12.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 62.888014308502,
+      "lng": 10.4955587897839
+    },
+    "skytterlag": "Budal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/gauldal/budal/",
+    "arrangementstype": "felt",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 251121
+  },
+  {
+    "navn": "Minnestevnet 2025",
+    "fra": "13.6.2025",
+    "til": "14.6.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "11.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 69.1593914986573,
+      "lng": 18.5230242943068
+    },
+    "skytterlag": "Bjørnen og Vestre Målselv",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/troms/bjornen-og-vestre-malselv/",
+    "arrangementstype": "bane",
+    "paameldte": 100,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243997&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243997
+  },
+  {
+    "navn": "Målselvtreffen",
+    "fra": "13.6.2025",
+    "til": "14.6.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "12.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 69.0640695453592,
+      "lng": 18.4856955731948
+    },
+    "skytterlag": "Målselv",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/troms/malselv/",
+    "arrangementstype": "bane",
+    "paameldte": 107,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243998&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243998
+  },
+  {
+    "navn": "LDKS Fjordane Krets Felt",
+    "fra": "13.6.2025",
+    "til": "15.6.2025",
+    "påmeldingFra": "13.5.2025 - 21:00",
+    "påmeldingTil": "10.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.9497159559364,
+      "lng": 5.90391892859209
+    },
+    "skytterlag": "Haugen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/fjordane-krets/nordfjord/haugen/",
+    "arrangementstype": "felt",
+    "paameldte": 90,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244343&arrType=STEVNE",
+    "beskrivelse": "Landsdelst.",
+    "eventId": 244343
+  },
+  {
+    "navn": "Kanonhelg",
+    "fra": "13.6.2025",
+    "til": "14.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 66.3670041099718,
+      "lng": 14.311241398211
+    },
+    "skytterlag": "Røvassdalen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/rana/rovassdalen/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250584
+  },
+  {
+    "navn": "Kanonhelg",
+    "fra": "13.6.2025",
+    "til": "14.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 66.3719286333599,
+      "lng": 14.5912964636465
+    },
+    "skytterlag": "Dunderlandsdalen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/rana/dunderlandsdalen/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250585
+  },
+  {
+    "navn": "Pressestevnet",
+    "fra": "14.6.2025",
+    "til": "15.6.2025",
+    "påmeldingFra": "16.5.2025 - 21:00",
+    "påmeldingTil": "12.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 69.2559740656228,
+      "lng": 18.1634844692699
+    },
+    "skytterlag": "Falken",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/troms/falken/",
+    "arrangementstype": "bane",
+    "paameldte": 76,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243999&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243999
+  },
+  {
+    "navn": "Kanonhelg",
+    "fra": "14.6.2025",
+    "til": "15.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 66.5002205450723,
+      "lng": 14.9803577084919
+    },
+    "skytterlag": "Bjøllånes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/rana/bjollanes/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250586
+  },
+  {
+    "navn": "LDKS bane",
+    "fra": "14.6.2025",
+    "til": "15.6.2025",
+    "påmeldingFra": "10.5.2025 - 21:00",
+    "påmeldingTil": "3.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.8712167130485,
+      "lng": 9.71134157193191
+    },
+    "skytterlag": "Etnedal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/valdres/etnedal/",
+    "arrangementstype": "bane",
+    "paameldte": 154,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251095&arrType=STEVNE",
+    "beskrivelse": "Landsdelst.",
+    "eventId": 251095
+  },
+  {
+    "navn": "Børgefjellstevnet 2025",
+    "fra": "15.6.2025",
+    "til": "15.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 65.5112036543613,
+      "lng": 13.4072748370647
+    },
+    "skytterlag": "Grane",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vefsn/grane/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 244031
+  },
+  {
+    "navn": "Samlagstevne bane 2025 / Østbø Cup 4",
+    "fra": "15.6.2025",
+    "til": "15.6.2025",
+    "påmeldingFra": "21.5.2025 - 21:00",
+    "påmeldingTil": "13.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 67.2956660672087,
+      "lng": 14.5159263033175
+    },
+    "skytterlag": "Bodø Østre",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/salten/bodo-ostre/",
+    "arrangementstype": "bane",
+    "paameldte": 4,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251313&arrType=STEVNE",
+    "beskrivelse": "Samlagsst.",
+    "eventId": 251313
+  },
+  {
+    "navn": "Oppskyting Storviltprøve",
+    "fra": "16.6.2025",
+    "til": "16.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 71.0075002507116,
+      "lng": 25.9832283467572
+    },
+    "skytterlag": "Honningsvåg",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vest-finnmark/honningsvag/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250387
+  },
+  {
+    "navn": "Veteranstevne Styrvoll",
+    "fra": "16.6.2025",
+    "til": "16.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 59.3147313116827,
+      "lng": 9.84926751040985
+    },
+    "skytterlag": "Styrvoll",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/vestfold/styrvoll/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 251029
+  },
+  {
+    "navn": "Vestfoldrunden 1 av 3 på Sem",
+    "fra": "17.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": "25.5.2025 - 21:00",
+    "påmeldingTil": "15.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.2814237794287,
+      "lng": 10.2875274184863
+    },
+    "skytterlag": "Sem",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/vestfold/sem/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250208
+  },
+  {
+    "navn": "Kommunemesterskap",
+    "fra": "17.6.2025",
+    "til": "17.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 65.50866792372,
+      "lng": 12.2712146058888
+    },
+    "skytterlag": "Brønnøysund",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vefsn/bronnoysund/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250247
+  },
+  {
+    "navn": "Jotunheimtreff Bane",
+    "fra": "17.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "15.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.8807793939813,
+      "lng": 9.16118257643628
+    },
+    "skytterlag": "Vågå",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/gudbrandsdal/vaga/",
+    "arrangementstype": "bane",
+    "paameldte": 177,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25094&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25094
+  },
+  {
+    "navn": "Jotunheimtreff Bane",
+    "fra": "17.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "15.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.8954780032603,
+      "lng": 8.22359908897039
+    },
+    "skytterlag": "Lom og Skjåk",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/gudbrandsdal/lom-og-skjak/",
+    "arrangementstype": "bane",
+    "paameldte": 152,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25095&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25095
+  },
+  {
+    "navn": "Stjørdalsmesterskap 100/200m",
+    "fra": "17.6.2025",
+    "til": "17.6.2025",
+    "påmeldingFra": "17.5.2025 - 21:00",
+    "påmeldingTil": "16.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.5200888995124,
+      "lng": 11.1521945535476
+    },
+    "skytterlag": "Skjelstadmark",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/skjelstadmark/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251001&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251001
+  },
+  {
+    "navn": "Vestfoldrunden 1 av 3 i Slagen",
+    "fra": "17.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": "25.5.2025 - 21:00",
+    "påmeldingTil": "15.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.3127786894691,
+      "lng": 10.4704909462452
+    },
+    "skytterlag": "Slagen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/vestfold/slagen/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 25317
+  },
+  {
+    "navn": "Hjelmelandstevnet",
+    "fra": "18.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "26.5.2025 - 21:00",
+    "påmeldingTil": "20.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.1880140339519,
+      "lng": 6.13692806274971
+    },
+    "skytterlag": "Hjelmeland",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/rogaland/hjelmeland/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 244279
+  },
+  {
+    "navn": "Solør interncup FINALE",
+    "fra": "18.6.2025",
+    "til": "18.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 60.3649570776149,
+      "lng": 11.9564602972921
+    },
+    "skytterlag": "Tørmoen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/solor/tormoen/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 244472
+  },
+  {
+    "navn": "Samlagsstemne Skogsløp m/skyting Søre Sunnmøre",
+    "fra": "18.6.2025",
+    "til": "18.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 62.1860039501548,
+      "lng": 6.01850889107751
+    },
+    "skytterlag": "Volda",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/sore-sunnmore/volda/",
+    "arrangementstype": "skogsløp",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Samlagsst.",
+    "eventId": 244520
+  },
+  {
+    "navn": "Veteranstevnet 2025",
+    "fra": "18.6.2025",
+    "til": "18.6.2025",
+    "påmeldingFra": "18.5.2025 - 21:00",
+    "påmeldingTil": "16.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 69.1593914986573,
+      "lng": 18.5230242943068
+    },
+    "skytterlag": "Bjørnen og Vestre Målselv",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/troms/bjornen-og-vestre-malselv/",
+    "arrangementstype": "bane",
+    "paameldte": 24,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250222&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250222
+  },
+  {
+    "navn": "Jegerfelt 4",
+    "fra": "18.6.2025",
+    "til": "18.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 0,
+      "lng": 0
+    },
+    "skytterlag": "Honningsvåg",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vest-finnmark/honningsvag/",
+    "arrangementstype": "felt",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250389
+  },
+  {
+    "navn": "Cal 22 stevne ALLE KLASSER",
+    "fra": "18.6.2025",
+    "til": "19.6.2025",
+    "påmeldingFra": "15.5.2025 - 21:00",
+    "påmeldingTil": "16.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.7324311755886,
+      "lng": 10.5574805017351
+    },
+    "skytterlag": "Vestre Toten",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/opland/vestre-toten/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 29,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250564&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250564
+  },
+  {
+    "navn": "Jotunheimtreffen Dovre og Dovreskog",
+    "fra": "18.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "15.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 61.9370283610912,
+      "lng": 9.28530961254151
+    },
+    "skytterlag": "Dovre og Dovreskog",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/gudbrandsdal/dovre-og-dovreskog/",
+    "arrangementstype": "bane",
+    "paameldte": 174,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25092&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25092
+  },
+  {
+    "navn": "Jotunheimtreff Bane",
+    "fra": "18.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "1.5.2025 - 21:00",
+    "påmeldingTil": "16.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.0948995105876,
+      "lng": 8.93203790510465
+    },
+    "skytterlag": "Lesja",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/gudbrandsdal/lesja/",
+    "arrangementstype": "bane",
+    "paameldte": 166,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25093&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25093
+  },
+  {
+    "navn": "Sunnhordlandstreffen 2025 Bømlo",
+    "fra": "18.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "1.6.2025 - 21:00",
+    "påmeldingTil": "20.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.6264251155471,
+      "lng": 5.19177106535582
+    },
+    "skytterlag": "Bømlo",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/hordakretsen/sunnhordland/bomlo/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 251191
+  },
+  {
+    "navn": "Sunnhordlandstreffen 2025 Stord",
+    "fra": "18.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "1.6.2025 - 21:00",
+    "påmeldingTil": "21.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.7980207692783,
+      "lng": 5.44115783082227
+    },
+    "skytterlag": "Stord",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/hordakretsen/sunnhordland/stord/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 251192
+  },
+  {
+    "navn": "Sunnhordlandstreffen 2025 Fitjar",
+    "fra": "18.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "1.6.2025 - 21:00",
+    "påmeldingTil": "20.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.9307940641199,
+      "lng": 5.33703841096987
+    },
+    "skytterlag": "Fitjar",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/hordakretsen/sunnhordland/fitjar/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 251213
+  },
+  {
+    "navn": "Midtsommerstevnet",
+    "fra": "19.6.2025",
+    "til": "19.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 63.2363061458923,
+      "lng": 10.2058651345438
+    },
+    "skytterlag": "Trondhjems",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/trondhjems/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 243865
+  },
+  {
+    "navn": "Nidarosstevnet 2025",
+    "fra": "19.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": "21.5.2025 - 21:00",
+    "påmeldingTil": "18.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.3654491263664,
+      "lng": 10.5260976072471
+    },
+    "skytterlag": "Nidaros",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/nidaros/",
+    "arrangementstype": "bane",
+    "paameldte": 9,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243866&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243866
+  },
+  {
+    "navn": "Bynesstevnet",
+    "fra": "19.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": "17.5.2025 - 21:00",
+    "påmeldingTil": "18.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.3925810180401,
+      "lng": 10.1824002907186
+    },
+    "skytterlag": "Byneset",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/uttrondelag/byneset/",
+    "arrangementstype": "bane",
+    "paameldte": 37,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243869&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243869
+  },
+  {
+    "navn": "Åpent stevne",
+    "fra": "19.6.2025",
+    "til": "20.6.2025",
+    "påmeldingFra": "20.5.2025 - 21:00",
+    "påmeldingTil": "18.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.6046857616813,
+      "lng": 10.0328260854916
+    },
+    "skytterlag": "Rissa",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/fosen/rissa/",
+    "arrangementstype": "bane",
+    "paameldte": 13,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250641&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250641
+  },
+  {
+    "navn": "Midtsommer cup Ullensaker Skytterlag 2025",
+    "fra": "19.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "15.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.1937895769377,
+      "lng": 11.1961400750102
+    },
+    "skytterlag": "Ullensaker",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/akershus/ullensaker/",
+    "arrangementstype": "bane",
+    "paameldte": 255,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250722&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250722
+  },
+  {
+    "navn": "Midtsommer Cup Skedsmo/Steinsgård 2025",
+    "fra": "19.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "15.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.2679419732465,
+      "lng": 11.0673878387264
+    },
+    "skytterlag": "Skedsmo",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/akershus/skedsmo/",
+    "arrangementstype": "bane",
+    "paameldte": 217,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250840&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250840
+  },
+  {
+    "navn": "Midsundstevnet 2025",
+    "fra": "19.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "2.5.2025 - 21:00",
+    "påmeldingTil": "17.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.7117521899686,
+      "lng": 6.75134702904216
+    },
+    "skytterlag": "Rakvåg",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/romsdal/rakvag/",
+    "arrangementstype": "bane",
+    "paameldte": 17,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251040&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251040
+  },
+  {
+    "navn": "Oppdalsstevnet",
+    "fra": "19.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "18.5.2025 - 21:00",
+    "påmeldingTil": "18.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.5923762615155,
+      "lng": 9.72059132215948
+    },
+    "skytterlag": "Opdal og Midtbygden",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/gauldal/opdal-og-midtbygden/",
+    "arrangementstype": "bane",
+    "paameldte": 32,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251060&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251060
+  },
+  {
+    "navn": "Mælumstevnet 2025",
+    "fra": "19.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 59.2035168617929,
+      "lng": 9.36080629853523
+    },
+    "skytterlag": "Mælum",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/telemark/malum/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 25243
+  },
+  {
+    "navn": "Midtsommer Cup Eidsvoll Verk 2025",
+    "fra": "19.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "15.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.2754969549832,
+      "lng": 11.1338666901913
+    },
+    "skytterlag": "Eidsvoll Verk",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/akershus/eidsvoll-verk/",
+    "arrangementstype": "bane",
+    "paameldte": 218,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25387&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25387
+  },
+  {
+    "navn": "Midtsommer Cup Nannestad 2025",
+    "fra": "19.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "15.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 60.2052662901264,
+      "lng": 10.9407711516684
+    },
+    "skytterlag": "Nannestad",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/akershus/nannestad/",
+    "arrangementstype": "bane",
+    "paameldte": 222,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25474&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25474
+  },
+  {
+    "navn": "68°Nord Ofoten Cup finale",
+    "fra": "19.6.2025",
+    "til": "19.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 68.5016041527781,
+      "lng": 16.5420135653599
+    },
+    "skytterlag": "Ramsund",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/ofoten/ramsund/",
+    "arrangementstype": "bane - ikke kl.sett",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 25723
+  },
+  {
+    "navn": "Banestevnet 2025",
+    "fra": "19.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": "25.5.2025 - 21:00",
+    "påmeldingTil": "17.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.2517466465034,
+      "lng": 9.25822589837164
+    },
+    "skytterlag": "Holla",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/telemark/holla/",
+    "arrangementstype": "bane",
+    "paameldte": 1,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 25919
+  },
+  {
+    "navn": "Sommerstevnet",
+    "fra": "20.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "11.5.2025 - 21:00",
+    "påmeldingTil": "19.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.7209138876281,
+      "lng": 11.4112442873101
+    },
+    "skytterlag": "Levanger og Frol",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/inntrondelag/levanger-og-frol/",
+    "arrangementstype": "bane",
+    "paameldte": 37,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243779&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243779
+  },
+  {
+    "navn": "Lakselvdal Open",
+    "fra": "20.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 59.8473145325776,
+      "lng": 41.4932676331201
+    },
+    "skytterlag": "Lakselvdal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/troms/lakselvdal/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 244001
+  },
+  {
+    "navn": "Sand/Suldal stevnet",
+    "fra": "20.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": "21.4.2025 - 21:00",
+    "påmeldingTil": "17.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.4715142370247,
+      "lng": 6.42409620806997
+    },
+    "skytterlag": "Sand/Suldal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/rogaland/sandsuldal/",
+    "arrangementstype": "bane",
+    "paameldte": 98,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244276&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244276
+  },
+  {
+    "navn": "Aureosenstevnet bane 2025",
+    "fra": "20.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "15.5.2025 - 21:00",
+    "påmeldingTil": "18.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.8023577120393,
+      "lng": 7.01136879234194
+    },
+    "skytterlag": "Aureosen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/romsdal/aureosen/",
+    "arrangementstype": "bane",
+    "paameldte": 6,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250741&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250741
+  },
+  {
+    "navn": "Arve Bakk minnestevne",
+    "fra": "20.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "18.5.2025 - 21:00",
+    "påmeldingTil": "19.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 62.8017869450619,
+      "lng": 10.0424072085412
+    },
+    "skytterlag": "Rennebu",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/gauldal/rennebu/",
+    "arrangementstype": "bane",
+    "paameldte": 27,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=250837&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 250837
+  },
+  {
+    "navn": "3. æresprisstevne",
+    "fra": "20.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 58.7134278624884,
+      "lng": 8.33658139711967
+    },
+    "skytterlag": "Dølemo",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/aust-agder/dolemo/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 251109
+  },
+  {
+    "navn": "Sparebanktreffen",
+    "fra": "20.6.2025",
+    "til": "20.6.2025",
+    "påmeldingFra": "27.5.2025 - 21:00",
+    "påmeldingTil": "18.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.5066094579023,
+      "lng": 10.059194663458
+    },
+    "skytterlag": "Stadsbygd",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/fosen/stadsbygd/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 251319
+  },
+  {
+    "navn": "Vemundvikstevnet",
+    "fra": "20.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 64.5143151491365,
+      "lng": 11.5459836558021
+    },
+    "skytterlag": "Vemundvik",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/namdal/vemundvik/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 25675
+  },
+  {
+    "navn": "Østfoldserien, Eidsbergstevnet 2025",
+    "fra": "21.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "19.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.5644412802833,
+      "lng": 11.4143840320573
+    },
+    "skytterlag": "Eidsberg",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/ostfold/eidsberg/",
+    "arrangementstype": "bane",
+    "paameldte": 139,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=243443&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 243443
+  },
+  {
+    "navn": "Stokkmyrstevnet",
+    "fra": "21.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 63.6033963396108,
+      "lng": 11.0798163655339
+    },
+    "skytterlag": "Aasen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/inntrondelag/aasen/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 243777
+  },
+  {
+    "navn": "Rislamotreffen",
+    "fra": "21.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": "31.5.2025 - 21:00",
+    "påmeldingTil": "19.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 69.2193979588878,
+      "lng": 19.1687761284285
+    },
+    "skytterlag": "Storsteinnes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/troms/storsteinnes/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 244000
+  },
+  {
+    "navn": "Midtsommerstevnet 2025",
+    "fra": "21.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "31.5.2025 - 21:00",
+    "påmeldingTil": "18.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 69.262935359123,
+      "lng": 19.979686157609
+    },
+    "skytterlag": "Storfjord",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/troms/storfjord/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 244002
+  },
+  {
+    "navn": "Saudastevnet 2025",
+    "fra": "21.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 59.6363866354641,
+      "lng": 6.28884306761176
+    },
+    "skytterlag": "Sauda",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/rogaland/sauda/",
+    "arrangementstype": "bane",
+    "paameldte": 17,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 244274
+  },
+  {
+    "navn": "Båstadstevnet og Østfoldserien 2025",
+    "fra": "21.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "15.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.7253241490117,
+      "lng": 11.2988368175573
+    },
+    "skytterlag": "Båstad",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/follo/bastad/",
+    "arrangementstype": "bane",
+    "paameldte": 114,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244721&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244721
+  },
+  {
+    "navn": "Østfoldserien, Kr. M. Gylstads Minnestevne",
+    "fra": "21.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "12.5.2025 - 21:00",
+    "påmeldingTil": "20.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 59.6203445713958,
+      "lng": 11.3417599811289
+    },
+    "skytterlag": "Trøgstad",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-ii-krets/follo/trogstad/",
+    "arrangementstype": "bane",
+    "paameldte": 159,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=244722&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 244722
+  },
+  {
+    "navn": "Lady Arbuthnott's pris",
+    "fra": "21.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 62.5637662771591,
+      "lng": 9.07068834168749
+    },
+    "skytterlag": "Sunndal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/nordmor/sunndal/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250608
+  },
+  {
+    "navn": "Lars o, Løseths minnestevne",
+    "fra": "21.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 63.0210543112034,
+      "lng": 9.31803564881862
+    },
+    "skytterlag": "Rindal",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/morekretsen/nordmor/rindal/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 250609
+  },
+  {
+    "navn": "Lagsmesterskap felt",
+    "fra": "21.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": "8.5.2025 - 21:00",
+    "påmeldingTil": "20.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 0,
+      "lng": 0
+    },
+    "skytterlag": "Trysil",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/opplandskretsen/osterdal/trysil/",
+    "arrangementstype": "felt",
+    "paameldte": 1,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=251148&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 251148
+  },
+  {
+    "navn": "Sørlandsstevnet, karusell",
+    "fra": "21.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 58.5746492991466,
+      "lng": 7.8148416097366
+    },
+    "skytterlag": "Evje og Hornnes",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/agder/evje-og-hornnes/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 25456
+  },
+  {
+    "navn": "Øvrebøstevnet, karusell",
+    "fra": "21.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 58.3171343973291,
+      "lng": 7.83062028342907
+    },
+    "skytterlag": "Øvrebø",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/agder/ovrebo/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 25457
+  },
+  {
+    "navn": "MOWI-Stevnet",
+    "fra": "21.6.2025",
+    "til": "21.6.2025",
+    "påmeldingFra": "20.5.2025 - 21:00",
+    "påmeldingTil": "19.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 64.6359684270208,
+      "lng": 11.3219273187715
+    },
+    "skytterlag": "Jøa",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/namdal/joa/",
+    "arrangementstype": "bane",
+    "paameldte": 7,
+    "link": "https://mittdfs.no/hovedside/aktuelt-na/arrangementskalender/pamelding/?eventId=25676&arrType=STEVNE",
+    "beskrivelse": "Åpent",
+    "eventId": 25676
+  },
+  {
+    "navn": "Midtsommerstevnet",
+    "fra": "21.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 65.8794326249294,
+      "lng": 13.4508423783607
+    },
+    "skytterlag": "Fustvatn",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vefsn/fustvatn/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 25949
+  },
+  {
+    "navn": "Skogntier'n",
+    "fra": "22.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "23.5.2025 - 21:00",
+    "påmeldingTil": "20.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 63.6848352518043,
+      "lng": 11.1025036429089
+    },
+    "skytterlag": "Skogn",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/inntrondelag/skogn/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 243778
+  },
+  {
+    "navn": "Jørpelandstevnet",
+    "fra": "22.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 59.0397410571495,
+      "lng": 6.05965197927568
+    },
+    "skytterlag": "Jørpeland",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/sorlandskretsen/rogaland/jorpeland/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 244280
+  },
+  {
+    "navn": "Snarumspokalen 2025",
+    "fra": "22.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": null,
+    "påmeldingTil": null,
+    "posisjon": {
+      "lat": 60.0268263469341,
+      "lng": 9.8834533268851
+    },
+    "skytterlag": "Snarum",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/viken-i-krets/ringerike/snarum/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 251105
+  },
+  {
+    "navn": "Samlagsstevnet skogsløp med skyting",
+    "fra": "22.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "22.5.2025 - 21:00",
+    "påmeldingTil": "19.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 64.5854164558104,
+      "lng": 11.6501516163494
+    },
+    "skytterlag": "Botnan",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/trondelag-krets/namdal/botnan/",
+    "arrangementstype": "skogsløp",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 25668
+  },
+  {
+    "navn": "Midtsommerstevnet",
+    "fra": "22.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "8.6.2025 - 21:00",
+    "påmeldingTil": "20.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 65.8707255249479,
+      "lng": 13.2315815319576
+    },
+    "skytterlag": "Mosjøen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vefsn/mosjoen/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 25822
+  },
+  {
+    "navn": "Eyvind Rørviks minnestevne",
+    "fra": "22.6.2025",
+    "til": "22.6.2025",
+    "påmeldingFra": "8.6.2025 - 21:00",
+    "påmeldingTil": "20.6.2025 - 23:59",
+    "posisjon": {
+      "lat": 65.8707255249479,
+      "lng": 13.2315815319576
+    },
+    "skytterlag": "Mosjøen",
+    "skytterlagUrl": "https://mittdfs.no/hovedside/Skytterlagssider/nord-norge-krets/vefsn/mosjoen/",
+    "arrangementstype": "bane",
+    "paameldte": 0,
+    "link": null,
+    "beskrivelse": "Åpent",
+    "eventId": 25823
+  }
+]

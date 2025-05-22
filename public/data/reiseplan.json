@@ -1,0 +1,35 @@
+[
+  {
+    "navn": "Startpunkt (meg)",
+    "lat": 64.4717579,
+    "lng": 11.551038,
+    "skytetid": "2025-05-22T10:00:00.000Z",
+    "ankomstTid": "2025-05-22T10:00:00.000Z",
+    "avreiseTid": "2025-05-22T10:00:00.000Z",
+    "forberedelse": 0,
+    "varighet": 0,
+    "forsinkelseMin": null
+  },
+  {
+    "navn": "Lyngenstevne 2 bane",
+    "lat": 64.298797,
+    "lng": 11.216586205080755,
+    "skytetid": null,
+    "ankomstTid": "2025-05-22T11:00:00.000Z",
+    "avreiseTid": "2025-05-22T11:00:00.000Z",
+    "forberedelse": 0,
+    "varighet": 0,
+    "forsinkelseMin": null
+  },
+  {
+    "navn": "Lyngenstevne 1 bane",
+    "lat": 64.299097,
+    "lng": 11.216413,
+    "skytetid": null,
+    "ankomstTid": "2025-05-22T12:00:00.000Z",
+    "avreiseTid": "2025-05-22T12:00:00.000Z",
+    "forberedelse": 0,
+    "varighet": 0,
+    "forsinkelseMin": null
+  }
+]

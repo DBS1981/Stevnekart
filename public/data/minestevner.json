@@ -1,0 +1,54 @@
+[
+  {
+    "navn": "Grong Sparebank stevnet",
+    "eventId": 25670,
+    "fra": "15.05.2025",
+    "til": "15.05.2025",
+    "påmeldingFra": "2025-05-03 - 21:",
+    "påmeldingTil": "2025-05-14 - 23:",
+    "startTime": "2025-05-15T18:15:00",
+    "posisjon": {
+      "lat": 64.5935976873066,
+      "lng": 12.5620506635641
+    }
+  },
+  {
+    "navn": "Lyngenstevne 2 bane",
+    "eventId": 250627,
+    "fra": "18.05.2025",
+    "til": "18.05.2025",
+    "påmeldingFra": "2025-04-13 - 21:",
+    "påmeldingTil": "2025-05-13 - 23:",
+    "startTime": "2025-05-18T12:15:00",
+    "posisjon": {
+      "lat": 64.2988965493945,
+      "lng": 11.2164131689723
+    }
+  },
+  {
+    "navn": "Lyngenstevne 1 bane",
+    "eventId": 243770,
+    "fra": "18.05.2025",
+    "til": "18.05.2025",
+    "påmeldingFra": "2025-04-13 - 21:",
+    "påmeldingTil": "2025-05-13 - 23:",
+    "startTime": "2025-05-18T13:45:00",
+    "posisjon": {
+      "lat": 64.2988965493945,
+      "lng": 11.2164131689723
+    }
+  },
+  {
+    "navn": "Landsskytterstevnet 2025 Kongsberg",
+    "eventId": 25785,
+    "fra": "01.08.2025",
+    "til": "01.08.2025",
+    "påmeldingFra": "2025-05-01 - 21:",
+    "påmeldingTil": "2025-06-15 - 23:",
+    "startTime": "2025-08-01T00:00:00",
+    "posisjon": {
+      "lat": 0,
+      "lng": 0
+    }
+  }
+]
