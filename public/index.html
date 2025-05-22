@@ -33,11 +33,16 @@
 </div>
 
 <!-- Oppdater-popup -->
-<div id="oppdaterPopup" style="display:none; position:fixed; top:100px; right:340px; background:white; border:1px solid #ccc; padding:10px; z-index:1001;">
+<div id="oppdaterPopup" style="display:none; position:fixed; top:100px; right:340px; background:white; border:1px solid #ccc; padding:10px; z-index:1001; max-width: 300px;">
   <h4>Henter stevner fra DFS</h4>
   <p>Skriv inn dato fra og til:</p>
   <label>Fra dato: <input type="date" id="datoFra"></label><br><br>
   <label>Til dato: <input type="date" id="datoTil"></label><br><br>
+  
+  <div style="background:#fff4e5; border:1px solid #ffa500; padding:8px; font-size: 0.9em; margin-bottom: 10px;">
+    ⚠️ <strong>Merk:</strong> Denne handlingen oppdaterer felles stevnedata og vil påvirke hva andre brukere ser i kartet.
+  </div>
+
   <button id="startOppdatering">Hent fra DFS</button>
   <button onclick="document.getElementById('oppdaterPopup').style.display='none'">Avbryt</button>
 </div>
