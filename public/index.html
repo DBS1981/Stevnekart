@@ -2,156 +2,605 @@
 <html lang="no">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="logo.png" type="image/png">
   <title>Stevekart - 12.05.25</title>
+
+  <!-- Vendor CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+
   <style>
-    html, body { margin: 0; height: 100%; overflow: hidden; font-family: sans-serif; }
-    #map { position: absolute; top: 0; left: 0; height: 100%; width: calc(100% - 320px); z-index: 1; }
-    #sidepanel { position: absolute; top: 25px; right: 0; height: 98%; width: 480px; background: #f9f9f9; overflow-y: auto; resize: horizontal; border-left: 1px solid #ccc; padding: 10px; z-index: 2; }
-    #toggleButton { position: absolute; top: 10px; right: 200px; z-index: 1000; }
-.brukerpos-icon div {
-  animation: pulser 1.5s infinite;
-}
-@keyframes pulser {
-  0% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.3); opacity: 0.6; }
-  100% { transform: scale(1); opacity: 1; }
-}
- 
- </style>
+    :root {
+      --bg: #f5f7fb;
+      --bg-elevated: #ffffff;
+      --border-subtle: #dde2eb;
+      --primary: #2563eb;
+      --primary-soft: #e0ecff;
+      --danger-soft: #ffe5e5;
+      --danger: #b91c1c;
+      --text-main: #111827;
+      --text-muted: #6b7280;
+      --radius-lg: 12px;
+      --shadow-soft: 0 10px 25px rgba(15, 23, 42, 0.08);
+      --transition-fast: 0.18s ease-out;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      height: 100%;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text-main);
+      background: var(--bg);
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* Topbar */
+    .topbar {
+      position: relative;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 12px;
+      background: rgba(15, 23, 42, 0.96);
+      color: #e5e7eb;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.5);
+    }
+
+    .topbar-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .topbar-logo {
+      width: 26px;
+      height: 26px;
+      border-radius: 8px;
+      background: radial-gradient(circle at 30% 20%, #60a5fa, #1d4ed8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+    }
+
+    .topbar-title {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+    }
+
+    .topbar-title-main {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .topbar-title-sub {
+      font-size: 11px;
+      color: #9ca3af;
+    }
+
+    #topButtons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    /* Generic buttons */
+    .btn {
+      border: none;
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-size: 13px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(31, 41, 55, 0.85);
+      color: #e5e7eb;
+      transition: transform var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast), color var(--transition-fast);
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #f9fafb;
+    }
+
+    .btn-ghost {
+      background: transparent;
+      border: 1px solid rgba(156, 163, 175, 0.5);
+      color: #e5e7eb;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 10px rgba(15, 23, 42, 0.35);
+      background: rgba(31, 41, 55, 1);
+    }
+
+    .btn-primary:hover {
+      background: #1d4ed8;
+    }
+
+    .btn:active {
+      transform: translateY(0);
+      box-shadow: none;
+    }
+
+    /* Main layout */
+    .app-shell {
+      flex: 1;
+      min-height: 0;
+      display: flex;
+      position: relative;
+    }
+
+    #map {
+      flex: 1;
+      height: 100%;
+      z-index: 1;
+    }
+
+    #sidepanel {
+      position: relative;
+      width: 380px;
+      max-width: 100%;
+      background: rgba(248, 250, 252, 0.98);
+      border-left: 1px solid var(--border-subtle);
+      box-shadow: -8px 0 20px rgba(15, 23, 42, 0.08);
+      padding: 16px 16px 24px;
+      overflow-y: auto;
+      z-index: 2;
+      resize: horizontal;
+      min-width: 260px;
+    }
+
+    #filter-container {
+      padding: 12px 14px;
+      margin-bottom: 12px;
+      background: var(--bg-elevated);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-soft);
+      border: 1px solid var(--border-subtle);
+    }
+
+    #filter-container label {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    #eventTypeFilter {
+      width: 100%;
+      padding: 6px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--border-subtle);
+      font-size: 13px;
+      outline: none;
+    }
+
+    #eventTypeFilter:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.35);
+    }
+
+    #brukFilterBtn,
+    #nullstillFilterBtn {
+      margin-top: 8px;
+      font-size: 12px;
+    }
+
+    #nullstillFilterBtn {
+      margin-left: 6px;
+    }
+
+    #stevneliste {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Prototype banner */
+    .prototype-banner {
+      position: fixed;
+      bottom: 14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--danger-soft);
+      color: var(--danger);
+      padding: 8px 16px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid rgba(239, 68, 68, 0.8);
+      border-radius: 999px;
+      z-index: 2000;
+      box-shadow: var(--shadow-soft);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .prototype-banner u {
+      text-decoration-thickness: 2px;
+    }
+
+    /* Popups – felles stil */
+    .popup {
+      position: fixed;
+      background: #ffffff;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-soft);
+      padding: 14px 16px 16px;
+      z-index: 1001;
+      max-width: 420px;
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+
+    .popup h3, .popup h4 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+
+    .popup label {
+      font-size: 13px;
+    }
+
+    .popup input[type="date"],
+    .popup input[type="text"],
+    .popup input[type="number"],
+    .popup textarea {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid var(--border-subtle);
+      padding: 6px 8px;
+      margin-top: 4px;
+      font-size: 13px;
+      outline: none;
+    }
+
+    .popup input:focus,
+    .popup textarea:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.2);
+    }
+
+    #oppdaterPopup {
+      top: 90px;
+      right: 20px;
+    }
+
+    #mineImportPopup {
+      top: 90px;
+      right: 20px;
+      width: 400px;
+    }
+
+    #søkPopup {
+      top: 80px;
+      left: 20px;
+    }
+
+    #grafPopup {
+      top: 80px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: min(800px, 94vw);
+    }
+
+    #ruteplanlegger {
+      position: fixed;
+      bottom: 14px;
+      left: 14px;
+      background: #ffffff;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-soft);
+      padding: 10px 12px 12px;
+      max-height: 320px;
+      overflow-y: auto;
+      z-index: 1001;
+      display: none;
+    }
+
+    #reiseplanPopup {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background: #ffffff;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-soft);
+      padding: 10px 12px 14px;
+      z-index: 1001;
+      max-width: min(1200px, 96vw);
+      overflow-x: auto;
+      display: none;
+    }
+
+    #loadingSpinner {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    #yearSelector, #typeSelector {
+      font-size: 13px;
+    }
+
+    #container {
+      min-height: 300px;
+    }
+
+    /* Brukerposisjon pulsering */
+    .brukerpos-icon div {
+      animation: pulser 1.5s infinite;
+    }
+    @keyframes pulser {
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.3); opacity: 0.6; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    /* Mobiltilpasning */
+    .sidepanel-toggle {
+      display: none;
+    }
+
+    @media (max-width: 900px) {
+      .app-shell {
+        flex-direction: column;
+      }
+
+      #sidepanel {
+        position: absolute;
+        inset: 52px 0 auto 0;
+        height: calc(55vh - 52px);
+        width: 100%;
+        max-width: 100%;
+        resize: none;
+        border-left: none;
+        border-top: 1px solid var(--border-subtle);
+        border-radius: 16px 16px 0 0;
+        transform: translateY(100%);
+        transition: transform 0.25s ease-out;
+      }
+
+      #sidepanel.sidepanel-open {
+        transform: translateY(0);
+      }
+
+      #map {
+        flex: 1;
+      }
+
+      .sidepanel-toggle {
+        display: inline-flex;
+      }
+
+      .prototype-banner {
+        bottom: 70px;
+        max-width: 90vw;
+        text-align: center;
+      }
+
+      #søkPopup,
+      #oppdaterPopup,
+      #mineImportPopup {
+        top: 64px;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        width: min(420px, 94vw);
+      }
+
+      #grafPopup {
+        top: 64px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 96vw;
+      }
+
+      #ruteplanlegger {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 80px;
+        width: 94vw;
+      }
+
+      #reiseplanPopup {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 96vw;
+      }
+    }
+  </style>
 </head>
 <body>
-<div id="topButtons" style="position: fixed; top: 0px; right: 5px; z-index: 1000; display: flex; gap: 10px;">
-<button id="åpneSøkPopup">🔍 Søk etter sted</button>  
-<button id="oppdaterStevnerBtn">🔄 Oppdater stevner</button>
-  <button id="åpneGrafKnapp">📈 Vis stevnegraf</button>
-  <button onclick="document.getElementById('mineImportPopup').style.display = 'block'">✂️ Mine stevner</button>
-  <button id="oppdaterSkytterlagBtn">🔄 Oppdater skytterlag</button>
-</div>
 
-  <!-- Prototype-varsling nederst -->
-<div style="position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); background: #ffdddd; color: #990000; padding: 10px 20px; font-size: 0.95em; font-weight: bold; border: 1px solid #cc0000; border-radius: 5px; z-index: 2000; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
-  🚧 Dette er en <u>prototype</u> og fortsatt under utvikling. Funksjoner og data kan endres uten varsel.
-</div>
-<!-- Oppdater-popup -->
-<div id="oppdaterPopup" style="display:none; position:fixed; top:100px; right:340px; background:white; border:1px solid #ccc; padding:10px; z-index:1001; max-width: 300px;">
-  <h4>Henter stevner fra DFS</h4>
-  <p>Skriv inn dato fra og til:</p>
-  <label>Fra dato: <input type="date" id="datoFra"></label><br><br>
-  <label>Til dato: <input type="date" id="datoTil"></label><br><br>
-  
-  <div style="background:#fff4e5; border:1px solid #ffa500; padding:8px; font-size: 0.9em; margin-bottom: 10px;">
-    ⚠️ <strong>Merk:</strong> Denne handlingen oppdaterer felles stevnedata og vil påvirke hva andre brukere ser i kartet.
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <div class="topbar-logo">S</div>
+      <div class="topbar-title">
+        <span class="topbar-title-main">Stevekart</span>
+        <span class="topbar-title-sub">Planlegg stevner og reiserute</span>
+      </div>
+    </div>
+
+    <div id="topButtons">
+      <button id="åpneSøkPopup" class="btn btn-ghost">🔍 Søk etter sted</button>
+      <button id="oppdaterStevnerBtn" class="btn btn-ghost">🔄 Oppdater stevner</button>
+      <button id="åpneGrafKnapp" class="btn btn-primary">📈 Vis stevnegraf</button>
+      <button onclick="document.getElementById('mineImportPopup').style.display = 'block'" class="btn btn-ghost">✂️ Mine stevner</button>
+      <button id="oppdaterSkytterlagBtn" class="btn btn-ghost">🔄 Oppdater skytterlag</button>
+      <button type="button" class="btn sidepanel-toggle" onclick="document.getElementById('sidepanel').classList.toggle('sidepanel-open')">
+        📋 Stevneliste
+      </button>
+    </div>
+  </header>
+
+  <!-- Hovedlayout -->
+  <div class="app-shell">
+    <!-- Kart -->
+    <div id="map"></div>
+
+    <!-- Sidepanel -->
+    <aside id="sidepanel">
+      <div id="filter-container">
+        <label for="eventTypeFilter">Filtrer:</label>
+        <select id="eventTypeFilter"></select>
+        <div style="margin-top:6px;">
+          <button id="brukFilterBtn" class="btn btn-primary">Bruk filter</button>
+          <button id="nullstillFilterBtn" class="btn btn-ghost">Nullstill</button>
+        </div>
+      </div>
+      <ul id="stevneliste"></ul>
+    </aside>
   </div>
 
-  <button id="startOppdatering">Hent fra DFS</button>
-  <button onclick="document.getElementById('oppdaterPopup').style.display='none'">Avbryt</button>
-</div>
-
-<!-- Kart -->
-<div id="map"></div>
-
-<!-- Sidepanel -->
-<div id="sidepanel">
-  <div id="filter-container" style="padding: 20px;">
-    <label for="eventTypeFilter">Filtrer:</label>
-    <select id="eventTypeFilter" style="width: 100%; max-width: 200px;"></select>
-    <button id="brukFilterBtn" style="margin-top:5px;">Bruk filter</button>
-    <button id="nullstillFilterBtn" style="margin-top:5px; margin-left:10px;">Nullstill</button>
-  </div>
-  <ul id="stevneliste"></ul>
-</div>
-
-<!-- Mine stevner import-popup -->
-<div id="mineImportPopup" class="popup" style="display: none; position:fixed; top:100px; right:340px; background:white; border:1px solid #ccc; padding:10px; z-index:1001; width:400px;">
-  <h3>Lim inn stevner fra DFS</h3>
-  <p>Slik gjør du:</p>
-  <ol style="padding-left: 20px;">
-    <li>Gå til <strong>mittdfs.no</strong>, logg inn og åpne fanen <strong>Mine stevner</strong>.</li>
-    <li>Trykk <strong>F12</strong> → "Network" → Last siden på nytt (F5).</li>
-    <li>Finn "calendar?dateFrom=...&tab=mine" → Gå til "Response".</li>
-    <li>Kopier hele JSON-responsen og lim den inn under:</li>
-  </ol>
-  <textarea id="dfsJsonInput" rows="10" style="width: 100%; margin-top:10px;"></textarea>
-  <div style="margin-top: 10px;">
-    <button onclick="lagreMineStevner()">💾 Lagre</button>
-    <button onclick="document.getElementById('mineImportPopup').style.display='none'" style="margin-left:10px;">Lukk</button>
-  </div>
-</div>
-
-<div id="søkPopup" style="display:none; position:fixed; top:15px; left:50px; background:white; padding:10px; border:1px solid #ccc; z-index:1001;">
-  <h3>🔍 Finn stevner i nærheten</h3>
-  <label>Sted: <input id="søkSted" type="text" style="width: 250px;"></label><br><br>
-  <label>Avstand: <input id="søkRadius" type="number" value="30" style="width:60px;"> km</label><br><br>
-  <button id="startSøk">🔎 Søk</button>
-  <button onclick="document.getElementById('søkPopup').style.display='none'">Lukk</button>
-</div>
-
-<!-- Reiserute-popup -->
-<div id="ruteplanlegger" style="position: fixed; bottom: 10px; left: 10px; background: white; padding: 10px; border: 1px solid #888; max-height: 300px; overflow-y: auto; z-index: 1001; display: none;">
-  <h4>🧭 Reiserute</h4>
-  <ul id="ruteliste" style="margin-bottom: 10px;"></ul>
-  <button onclick="åpneGoogleMapsRute()">🗺️ Google Maps</button>
-  <button onclick="nullstillReiserute()">🗑 Nullstill rute</button>
-  <button id="visReiseplanKnapp">Vis reiseplan</button>
-</div>
-<div id="grafPopup" style="display:none; position:fixed; top:80px; right:50%; background:white; padding:10px; border:1px solid #ccc; z-index:1000; width: 800px;">
-  <h3>Stevnegraf</h3>
-  <div id="loadingSpinner" style="display:none;">Laster...</div>
-  <div id="yearSelector" style="margin-bottom:10px;"></div>
-  <div id="typeSelector" style="margin-bottom:10px;"></div>
-
-  <div style="display:flex; gap:10px; flex-wrap: wrap; margin-bottom:10px;">
-    <button id="compareYearsBtn">📈 Sammenlign år</button>
-    <button id="selectAllYearsBtn">Velg alle år</button>
-    <button id="clearAllYearsBtn">Fjern alle år</button>
-    <button id="grafCloseBtn">Lukk</button>
+  <!-- Prototype-varsling -->
+  <div class="prototype-banner">
+    🚧 Dette er en <u>prototype</u> og fortsatt under utvikling. Funksjoner og data kan endres uten varsel.
   </div>
 
-  <div id="container" style="min-height:300px;"></div>
-</div>
+  <!-- Oppdater-popup -->
+  <div id="oppdaterPopup" class="popup" style="display:none;">
+    <h4>Henter stevner fra DFS</h4>
+    <p style="font-size:13px; color:var(--text-muted); margin-top:0;">
+      Skriv inn dato fra og til:
+    </p>
 
-<!-- Reiseplan-popup -->
-<div id="reiseplanPopup" style="display:none; position:fixed; bottom:20px; left:20px; background:white; border:1px solid #ccc; padding:10px; z-index:10001; max-width:1200px; box-shadow:0 4px 12px rgba(0,0,0,0.2); overflow-x:auto;"></div>
+    <label>Fra dato:
+      <input type="date" id="datoFra">
+    </label><br><br>
+    <label>Til dato:
+      <input type="date" id="datoTil">
+    </label><br><br>
 
-<!-- Scripts -->
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-<script src="https://unpkg.com/leaflet-geometryutil"></script>
-<script src="https://unpkg.com/@mapbox/polyline"></script>
-<script>
-  // Ekstra metode til Leaflet: dekode ORS encoded polyline
-  L.Polyline.fromEncoded = function(encoded) {
-    const coords = polyline.decode(encoded).map(c => L.latLng(c[0], c[1]));
-    return L.polyline(coords);
-  };
-</script>
-<script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
-<script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
-<script src="body/kart.js"></script>
-<script src="body/søk.js"></script>
-<script src="body/oppdater.js"></script>
-<script src="body/graf.js"></script>
-<script src="body/reiseplanlegger.js"></script>
-  console.log("📦 Script etter reiseplanlegger.js kjøres!");
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const datoFraEl = document.getElementById("datoFra");
-    const datoTilEl = document.getElementById("datoTil");
-    if (datoFraEl && datoTilEl) {
-      const idag = new Date();
-      const enMndFram = new Date();
-      enMndFram.setMonth(enMndFram.getMonth() + 1);
-      const tilISO = d => d.toISOString().split("T")[0];
-      datoFraEl.value = tilISO(idag);
-      datoTilEl.value = tilISO(enMndFram);
-    }
-  });
-</script>
+    <div style="background:#fff4e5; border:1px solid #ffa500; padding:8px; font-size: 0.9em; margin-bottom: 10px; border-radius:8px;">
+      ⚠️ <strong>Merk:</strong> Denne handlingen oppdaterer felles stevnedata og vil påvirke hva andre brukere ser i kartet.
+    </div>
+
+    <button id="startOppdatering" class="btn btn-primary">Hent fra DFS</button>
+    <button onclick="document.getElementById('oppdaterPopup').style.display='none'" class="btn btn-ghost" style="margin-left:6px;">Avbryt</button>
+  </div>
+
+  <!-- Mine stevner import-popup -->
+  <div id="mineImportPopup" class="popup" style="display:none;">
+    <h3>Lim inn stevner fra DFS</h3>
+    <p style="font-size:13px; color:var(--text-muted);">
+      Slik gjør du:
+    </p>
+    <ol style="padding-left: 20px; font-size:13px; color:var(--text-muted);">
+      <li>Gå til <strong>mittdfs.no</strong>, logg inn og åpne fanen <strong>Mine stevner</strong>.</li>
+      <li>Trykk <strong>F12</strong> → "Network" → Last siden på nytt (F5).</li>
+      <li>Finn "calendar?dateFrom=...&amp;tab=mine" → Gå til "Response".</li>
+      <li>Kopier hele JSON-responsen og lim den inn under:</li>
+    </ol>
+    <textarea id="dfsJsonInput" rows="10" style="margin-top:10px;"></textarea>
+    <div style="margin-top: 10px; display:flex; gap:6px;">
+      <button onclick="lagreMineStevner()" class="btn btn-primary">💾 Lagre</button>
+      <button onclick="document.getElementById('mineImportPopup').style.display='none'" class="btn btn-ghost">Lukk</button>
+    </div>
+  </div>
+
+  <!-- Søk-popup -->
+  <div id="søkPopup" class="popup" style="display:none;">
+    <h3>🔍 Finn stevner i nærheten</h3>
+    <label>Sted:
+      <input id="søkSted" type="text">
+    </label><br><br>
+    <label>Avstand:
+      <input id="søkRadius" type="number" value="30" style="max-width:80px; display:inline-block;"> km
+    </label><br><br>
+    <button id="startSøk" class="btn btn-primary">🔎 Søk</button>
+    <button onclick="document.getElementById('søkPopup').style.display='none'" class="btn btn-ghost" style="margin-left:6px;">Lukk</button>
+  </div>
+
+  <!-- Reiserute-popup -->
+  <div id="ruteplanlegger">
+    <h4 style="margin-top:0; margin-bottom:8px;">🧭 Reiserute</h4>
+    <ul id="ruteliste" style="margin-bottom: 10px; padding-left:18px; font-size:13px;"></ul>
+    <div style="display:flex; flex-wrap:wrap; gap:6px;">
+      <button onclick="åpneGoogleMapsRute()" class="btn btn-primary">🗺️ Google Maps</button>
+      <button onclick="nullstillReiserute()" class="btn btn-ghost">🗑 Nullstill rute</button>
+      <button id="visReiseplanKnapp" class="btn btn-ghost">Vis reiseplan</button>
+    </div>
+  </div>
+
+  <!-- Graf-popup -->
+  <div id="grafPopup" style="display:none;" class="popup">
+    <h3>Stevnegraf</h3>
+    <div id="loadingSpinner" style="display:none;">Laster...</div>
+    <div id="yearSelector" style="margin-bottom:10px;"></div>
+    <div id="typeSelector" style="margin-bottom:10px;"></div>
+
+    <div style="display:flex; gap:8px; flex-wrap: wrap; margin-bottom:10px;">
+      <button id="compareYearsBtn" class="btn btn-primary">📈 Sammenlign år</button>
+      <button id="selectAllYearsBtn" class="btn btn-ghost">Velg alle år</button>
+      <button id="clearAllYearsBtn" class="btn btn-ghost">Fjern alle år</button>
+      <button id="grafCloseBtn" class="btn btn-ghost">Lukk</button>
+    </div>
+
+    <div id="container"></div>
+  </div>
+
+  <!-- Reiseplan-popup -->
+  <div id="reiseplanPopup"></div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="https://unpkg.com/leaflet-geometryutil"></script>
+  <script src="https://unpkg.com/@mapbox/polyline"></script>
+  <script>
+    // Ekstra metode til Leaflet: dekode ORS encoded polyline
+    L.Polyline.fromEncoded = function(encoded) {
+      const coords = polyline.decode(encoded).map(c => L.latLng(c[0], c[1]));
+      return L.polyline(coords);
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+  <script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+  <script src="body/kart.js"></script>
+  <script src="body/søk.js"></script>
+  <script src="body/oppdater.js"></script>
+  <script src="body/graf.js"></script>
+  <script src="body/reiseplanlegger.js"></script>
+  <script>
+    console.log("📦 Script etter reiseplanlegger.js kjøres!");
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const datoFraEl = document.getElementById("datoFra");
+      const datoTilEl = document.getElementById("datoTil");
+      if (datoFraEl && datoTilEl) {
+        const idag = new Date();
+        const enMndFram = new Date();
+        enMndFram.setMonth(enMndFram.getMonth() + 1);
+        const tilISO = d => d.toISOString().split("T")[0];
+        datoFraEl.value = tilISO(idag);
+        datoTilEl.value = tilISO(enMndFram);
+      }
+    });
+  </script>
 </body>
 </html>
