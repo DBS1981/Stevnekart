@@ -38,6 +38,7 @@ async function hentKjøreTidORS(start, slutt) {
   }
 }
 
+
 function parseKjøretidTilMinutter(tidStr) {
   if (!tidStr || typeof tidStr !== "string") return null;
   const deler = tidStr.split(":");
