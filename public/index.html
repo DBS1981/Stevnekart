@@ -461,7 +461,7 @@
       <button id="åpneSøkPopup" class="btn btn-ghost">🔍 Søk etter sted</button>
       <button id="oppdaterStevnerBtn" class="btn btn-ghost">🔄 Oppdater stevner</button>
       <button id="åpneGrafKnapp" class="btn btn-primary">📈 Vis stevnegraf</button>
-      <!-- Endret onclick til funksjon med prototype-varsel -->
+      <!-- Kaller funksjon med prototype-varsel + passord -->
       <button onclick="visMineStevnerPrototypeVarsel()" class="btn btn-ghost">✂️ Mine stevner</button>
       <button id="oppdaterSkytterlagBtn" class="btn btn-ghost">🔄 Oppdater skytterlag</button>
       <button type="button" class="btn sidepanel-toggle" onclick="document.getElementById('sidepanel').classList.toggle('sidepanel-open')">
@@ -616,28 +616,28 @@
       }
     }
 
-    // Prototype-varsel for "Mine stevner"
+    // Prototype-varsel + passord for "Mine stevner"
     function visMineStevnerPrototypeVarsel() {
-    const melding =
+      const melding =
         "⚠️ 'Mine stevner' er en prototype-funksjon.\n\n" +
         "For å fortsette, skriv inn kode:\n\n" +
         "👉 danielskomsvold\n";
 
-    const kode = prompt(melding, "");
+      const kode = prompt(melding, "");
 
-    if (kode === null) {
+      if (kode === null) {
         // Brukeren trykket Avbryt
         return;
-    }
+      }
 
-    if (kode.trim() !== "danielskomsvold") {
+      if (kode.trim() !== "danielskomsvold") {
         alert("❌ Feil kode. Tilgang nektes.");
         return;
-    }
+      }
 
-    // Riktig kode → åpne popup
-    document.getElementById('mineImportPopup').style.display = 'block';
-}
+      // Riktig kode → åpne popup
+      document.getElementById('mineImportPopup').style.display = 'block';
+    }
 
     document.addEventListener("DOMContentLoaded", () => {
       const datoFraEl = document.getElementById("datoFra");
