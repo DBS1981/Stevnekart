@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="logo.png" type="image/png">
-  <title>Stevekart - 24.11.25</title>
+  <title>Stevekart - 12.05.25</title>
 
   <!-- Vendor CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
@@ -140,6 +140,44 @@
       box-shadow: none;
     }
 
+    /* Prototype banner øverst */
+    .prototype-banner {
+      width: 100%;
+      background: var(--danger-soft);
+      color: var(--danger);
+      padding: 8px 16px;
+      font-size: 12px;
+      font-weight: 600;
+      border-bottom: 1px solid rgba(239, 68, 68, 0.5);
+      z-index: 900;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .prototype-banner-text {
+      text-align: center;
+    }
+
+    .prototype-banner-close {
+      border: none;
+      background: transparent;
+      font-size: 14px;
+      cursor: pointer;
+      padding: 2px 6px;
+      border-radius: 999px;
+      line-height: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .prototype-banner-close:hover {
+      background: rgba(248, 113, 113, 0.18);
+    }
+
     /* Main layout */
     .app-shell {
       flex: 1;
@@ -213,30 +251,6 @@
       list-style: none;
       margin: 0;
       padding: 0;
-    }
-
-    /* Prototype banner */
-    .prototype-banner {
-      position: fixed;
-      bottom: 14px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: var(--danger-soft);
-      color: var(--danger);
-      padding: 8px 16px;
-      font-size: 12px;
-      font-weight: 600;
-      border: 1px solid rgba(239, 68, 68, 0.8);
-      border-radius: 999px;
-      z-index: 2000;
-      box-shadow: var(--shadow-soft);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .prototype-banner u {
-      text-decoration-thickness: 2px;
     }
 
     /* Popups – felles stil */
@@ -395,9 +409,8 @@
       }
 
       .prototype-banner {
-        bottom: 70px;
-        max-width: 90vw;
-        text-align: center;
+        font-size: 11px;
+        padding: 10px;
       }
 
       #søkPopup,
@@ -448,13 +461,24 @@
       <button id="åpneSøkPopup" class="btn btn-ghost">🔍 Søk etter sted</button>
       <button id="oppdaterStevnerBtn" class="btn btn-ghost">🔄 Oppdater stevner</button>
       <button id="åpneGrafKnapp" class="btn btn-primary">📈 Vis stevnegraf</button>
-      <button onclick="document.getElementById('mineImportPopup').style.display = 'block'" class="btn btn-ghost">✂️ Mine stevner</button>
+      <!-- Endret onclick til funksjon med prototype-varsel -->
+      <button onclick="visMineStevnerPrototypeVarsel()" class="btn btn-ghost">✂️ Mine stevner</button>
       <button id="oppdaterSkytterlagBtn" class="btn btn-ghost">🔄 Oppdater skytterlag</button>
       <button type="button" class="btn sidepanel-toggle" onclick="document.getElementById('sidepanel').classList.toggle('sidepanel-open')">
         📋 Stevneliste
       </button>
     </div>
   </header>
+
+  <!-- Prototype-varsling øverst -->
+  <div class="prototype-banner" id="prototypeBanner">
+    <span class="prototype-banner-text">
+      🚧 Dette er en <u>prototype</u> og fortsatt under utvikling. Funksjoner og data kan endres uten varsel.
+    </span>
+    <button class="prototype-banner-close" onclick="lukkPrototypeBanner()" aria-label="Lukk varsel">
+      ✕
+    </button>
+  </div>
 
   <!-- Hovedlayout -->
   <div class="app-shell">
@@ -473,11 +497,6 @@
       </div>
       <ul id="stevneliste"></ul>
     </aside>
-  </div>
-
-  <!-- Prototype-varsling -->
-  <div class="prototype-banner">
-    🚧 Dette er en <u>prototype</u> og fortsatt under utvikling. Funksjoner og data kan endres uten varsel.
   </div>
 
   <!-- Oppdater-popup -->
@@ -588,6 +607,27 @@
   <script src="body/reiseplanlegger.js"></script>
   <script>
     console.log("📦 Script etter reiseplanlegger.js kjøres!");
+
+    // Lukk prototypebanner
+    function lukkPrototypeBanner() {
+      const banner = document.getElementById('prototypeBanner');
+      if (banner) {
+        banner.style.display = 'none';
+      }
+    }
+
+    // Prototype-varsel for "Mine stevner"
+    function visMineStevnerPrototypeVarsel() {
+      const melding =
+        "⚠️ 'Mine stevner' er en prototype-funksjon.\n\n" +
+        "- Data kan lagres lokalt i nettleseren.\n" +
+        "- Funksjonen kan endre seg eller fjernes.\n\n" +
+        "Vil du fortsette?";
+      const fortsett = confirm(melding);
+      if (fortsett) {
+        document.getElementById('mineImportPopup').style.display = 'block';
+      }
+    }
 
     document.addEventListener("DOMContentLoaded", () => {
       const datoFraEl = document.getElementById("datoFra");
