@@ -618,16 +618,26 @@
 
     // Prototype-varsel for "Mine stevner"
     function visMineStevnerPrototypeVarsel() {
-      const melding =
+    const melding =
         "⚠️ 'Mine stevner' er en prototype-funksjon.\n\n" +
-        "- Data kan lagres lokalt i nettleseren.\n" +
-        "- Funksjonen kan endre seg eller fjernes.\n\n" +
-        "Vil du fortsette?";
-      const fortsett = confirm(melding);
-      if (fortsett) {
-        document.getElementById('mineImportPopup').style.display = 'block';
-      }
+        "For å fortsette, skriv inn kode:\n\n" +
+        "👉 danielskomsvold\n";
+
+    const kode = prompt(melding, "");
+
+    if (kode === null) {
+        // Brukeren trykket Avbryt
+        return;
     }
+
+    if (kode.trim() !== "danielskomsvold") {
+        alert("❌ Feil kode. Tilgang nektes.");
+        return;
+    }
+
+    // Riktig kode → åpne popup
+    document.getElementById('mineImportPopup').style.display = 'block';
+}
 
     document.addEventListener("DOMContentLoaded", () => {
       const datoFraEl = document.getElementById("datoFra");
