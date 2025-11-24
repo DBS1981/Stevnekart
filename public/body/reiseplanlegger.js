@@ -255,7 +255,7 @@ async function lagReiseplan(
 
   const plan = [];
 
-  // Først: forsøk å fylle inn eventId + skytetid fra Mine stevner
+  // 1) Fyll inn eventId + skytetid fra Mine stevner der det finnes
   valgtePunkter.forEach(p => {
     const match = finnMatchendeStevne(p, mineStevner || []);
     if (match) {
@@ -273,6 +273,7 @@ async function lagReiseplan(
     }
   });
 
+  // 2) Bygg reiseplan steg for steg
   for (let i = 0; i < valgtePunkter.length; i++) {
     const p = valgtePunkter[i];
 
@@ -286,7 +287,7 @@ async function lagReiseplan(
       skytetid = p.skytetid;
     }
 
-    // Første punkt uten skytetid → default kl 12:00 i dag
+    // Første punkt uten skytetid → sett en default skytetid
     if (!skytetid && i === 0) {
       const d = new Date();
       d.setHours(12, 0, 0, 0);
@@ -300,7 +301,7 @@ async function lagReiseplan(
     }
 
     const forberedelseMin = erStopp ? 0 : (p.forberedelse != null ? parseInt(p.forberedelse, 10) || 0 : 30);
-    const varighetMin = erStopp ? 0 : (p.varighet != null ? parseInt(p.varighet, 10) || 0 : 60);
+    const varighetMin     = erStopp ? 0 : (p.varighet     != null ? parseInt(p.varighet, 10)     || 0 : 60);
 
     let ankomstTid = null;
     let avreiseTid = null;
@@ -311,9 +312,10 @@ async function lagReiseplan(
       forrige = plan.slice().reverse().find(x => x.avreiseTid && !isNaN(new Date(x.avreiseTid).getTime()));
     }
 
+    // Les eventuell lagret kjøretid (f.eks. "1:15")
     let kjøretidMin = parseKjøretidTilMinutter(p.kjøretid);
 
-    // Hvis vi har forrige punkt og ikke har kjøretid → hent fra ORS
+    // 2a) Hvis vi har et forrige punkt og ingen/ugyldig kjøretid → prøv ORS
     if (forrige && (!kjøretidMin || isNaN(kjøretidMin))) {
       if (
         forrige.posisjon?.lat != null &&
@@ -323,66 +325,80 @@ async function lagReiseplan(
       ) {
         const result = await hentKjøreTidORS(forrige.posisjon, p.posisjon);
         kjøretidMin = result.minutter;
-        p.kjøretid = kjøretidMin
-          ? `${Math.floor(kjøretidMin / 60)}:${String(kjøretidMin % 60).padStart(2, "0")}`
-          : "";
+
+        if (kjøretidMin && !isNaN(kjøretidMin)) {
+          // skriv kjøretid som HH:MM
+          const h = Math.floor(kjøretidMin / 60);
+          const m = kjøretidMin % 60;
+          p.kjøretid = `${h}:${String(m).padStart(2, "0")}`;
+        }
+
         if (result.linje) window.reiseLinjerLayer.addLayer(result.linje);
       }
     }
 
-    // Default kjøretid hvis fortsatt ukjent og ikke første punkt
+    // 2b) Fallback: hvis vi fortsatt ikke har kjøretid, sett 60 min
     if (forrige && (!kjøretidMin || isNaN(kjøretidMin))) {
-      kjøretidMin = 60; // fallback 1 time
+      kjøretidMin = 60;
+      if (!p.kjøretid) {
+        p.kjøretid = "1:00 (anslag)";
+      }
     }
 
+    // 3) Beregn ankomst/avreise
     if (!forrige) {
-      // Første punkt: sett ankomst/avreise basert på skytetid eller nå
+      // Første punkt i ruten
       if (skytetid && !isNaN(skytetid.getTime())) {
-        const requiredArrival = new Date(skytetid.getTime() - forberedelseMin * 60000);
-        ankomstTid = requiredArrival;
-        const startTid = skytetid;
-        avreiseTid = new Date(startTid.getTime() + varighetMin * 60000);
+        const ønsketAnkomst = new Date(skytetid.getTime() - forberedelseMin * 60000);
+        ankomstTid = ønsketAnkomst;
+        const faktiskStart = skytetid; // vi antar vi kan starte selve skytingen på skytetid
+        avreiseTid = new Date(faktiskStart.getTime() + varighetMin * 60000);
       } else {
-        // helt manuell / stopp uten tid
         const nå = new Date();
         ankomstTid = nå;
         avreiseTid = new Date(nå.getTime() + varighetMin * 60000);
       }
     } else {
-      // Øvrige punkt: start fra forrige avreise + kjøretid
-      if (forrige.avreiseTid && !isNaN(new Date(forrige.avreiseTid).getTime()) && kjøretidMin != null) {
+      // Etterfølgende punkt: vi kjører fra forrige avreise
+      if (forrige.avreiseTid && !isNaN(new Date(forrige.avreiseTid).getTime())) {
         const forrigeAvreise = new Date(forrige.avreiseTid);
-        ankomstTid = new Date(forrigeAvreise.getTime() + kjøretidMin * 60000);
+        // ankomst basert på kjøring
+        ankomstTid = kjøretidMin != null
+          ? new Date(forrigeAvreise.getTime() + kjøretidMin * 60000)
+          : forrigeAvreise;
 
         if (!erStopp && skytetid && !isNaN(skytetid.getTime())) {
-          const requiredArrival = new Date(skytetid.getTime() - forberedelseMin * 60000);
-          // Vi starter forberedelse når vi kommer frem
+          const ønsketAnkomst = new Date(skytetid.getTime() - forberedelseMin * 60000);
+
+          // vi starter forberedelse når vi faktisk ankommer
           const faktiskStartForberedelse = ankomstTid;
           const faktiskStartSkyting = new Date(faktiskStartForberedelse.getTime() + forberedelseMin * 60000);
-          const faktiskStart = skytetid > faktiskStartSkyting ? skytetid : faktiskStartSkyting;
-          avreiseTid = new Date(faktiskStart.getTime() + varighetMin * 60000);
+
+          // selve skytingen kan ikke starte før skytetid
+          const faktiskSkyteStart = skytetid > faktiskStartSkyting ? skytetid : faktiskStartSkyting;
+          avreiseTid = new Date(faktiskSkyteStart.getTime() + varighetMin * 60000);
         } else {
-          // Stopp uten skytetid
+          // stopp uten skytetid
           avreiseTid = new Date(ankomstTid.getTime() + varighetMin * 60000);
         }
       } else {
         console.warn(`❗ Forrige punkt mangler gyldig avreiseTid for ${p.navn} – bruker kun skytetid.`);
         if (skytetid && !isNaN(skytetid.getTime())) {
-          const requiredArrival = new Date(skytetid.getTime() - forberedelseMin * 60000);
-          ankomstTid = requiredArrival;
+          const ønsketAnkomst = new Date(skytetid.getTime() - forberedelseMin * 60000);
+          ankomstTid = ønsketAnkomst;
           avreiseTid = new Date(skytetid.getTime() + varighetMin * 60000);
         }
       }
     }
 
-    // Beregn forsinkelseMin (positiv = for sen, negativ = margin)
+    // 4) Beregn forsinkelseMin
     let forsinkelseMin = null;
     if (!erStopp && skytetid && ankomstTid &&
         !isNaN(skytetid.getTime()) && !isNaN(ankomstTid.getTime())) {
-      const requiredArrival = new Date(skytetid.getTime() - forberedelseMin * 60000);
-      const diffMin = Math.round((ankomstTid.getTime() - requiredArrival.getTime()) / 60000);
-      // diffMin > 0  → vi kommer X min senere enn ønsket ankomst (for sen)
-      // diffMin < 0  → vi er X min tidligere enn ønsket ankomst (margin)
+      const ønsketAnkomst = new Date(skytetid.getTime() - forberedelseMin * 60000);
+      const diffMin = Math.round((ankomstTid.getTime() - ønsketAnkomst.getTime()) / 60000);
+      // diffMin > 0  → du kommer X min senere enn ønsket ankomst (for sen)
+      // diffMin < 0  → du har X min å gå på
       forsinkelseMin = diffMin;
     }
 
@@ -408,6 +424,7 @@ async function lagReiseplan(
     body: JSON.stringify(plan)
   }).catch(err => console.error("Feil ved lagring av reiseplan:", err));
 }
+
 
 // Gjør tilgjengelig globalt (brukes fra HTML-knapp og andre scripts)
 window.lagReiseplan = lagReiseplan;
